@@ -1,7 +1,6 @@
-import AvatarContainer from './containers/AvatarContainer'
+import Main from './components/Main'
 import Header from './containers/Header'
-import ItemsMenu from './containers/ItemsMenu'
-import GlobalStyle, { Container, Main } from './styles'
+import GlobalStyle, { Container } from './styles'
 
 function App() {
 
@@ -10,10 +9,7 @@ function App() {
       <GlobalStyle />
       <Container>
         <Header />
-        <Main>
-          <ItemsMenu />
-          <AvatarContainer />
-        </Main>
+        <Main />
       </Container>
     </>
   )

@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Card = styled.div`
-margin-top: 14px;
+    margin-top: 14px;
     background-color: #fff;
     padding: 16px;
     border-radius: 8px;

@@ -36,12 +36,12 @@ export const Container = styled.div`
     margin: 0 auto;
 `
 
-export const Main = styled.main`
+/* export const Main = styled.main`
     max-width: 1400px;
     width: 100%;
     margin: 0 auto;
     display: grid;
     grid-template-columns: 35% 65%;
-`
+` */
 
 export default GlobalStyle
