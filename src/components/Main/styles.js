@@ -11,5 +11,7 @@ export const Main = styled.main`
 
     @media (max-width: 767px) {
         display: block;
+        min-height: 80vh;
+        height: fit-content;
     }
 `
