@@ -5,10 +5,14 @@ export const AvatarCanvas = styled.div`
 `
 
 export const CharContainer = styled.div`
-    width: 350px;
+    max-width: 350px;
+    width: 100%;
     margin: 0 auto;
-    margin-top: 7%;
     position: relative;
+
+    @media (max-width: 767px) {
+        width: 70vw;
+    }
 
     & img {
         width: 100%;

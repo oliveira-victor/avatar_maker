@@ -34,6 +34,8 @@ export const Items = styled.div`
     @media (max-width: 767px) {
         flex-wrap: nowrap;
         overflow-x: scroll;
+        padding-top: 20px;
+        margin-top: 0;
     }
 
     & img {
