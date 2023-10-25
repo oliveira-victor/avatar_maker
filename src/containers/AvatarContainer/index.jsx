@@ -1,11 +1,11 @@
 import * as S from './styles'
 
-
+import emtpyImg from '../../assets/placeholderImg.png'
 
 const AvatarContainer = ({ charBody, charTop, charBottom, charSkin, charEyes, charMouth }) => {
 
     const renderChar = (charPart) => {
-        return <img src={charPart} />
+        return <S.CharAbsoluteParts src={charPart} />
     }
 
     return (
@@ -17,6 +17,7 @@ const AvatarContainer = ({ charBody, charTop, charBottom, charSkin, charEyes, ch
                 {renderChar(charMouth)}
                 {renderChar(charBottom)}
                 {renderChar(charTop)}
+                <S.PlaceholderImg src={emtpyImg} />
             </S.CharContainer>
         </S.AvatarCanvas>
     )

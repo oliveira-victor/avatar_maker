@@ -1,21 +1,31 @@
-import styled  from "styled-components";
+import styled from "styled-components";
 
 export const AvatarCanvas = styled.div`
     background-color: #6b6b6b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @media (max-width: 767px) {
+        background-color: transparent;
+    }
 `
 
 export const CharContainer = styled.div`
     max-width: 350px;
-    width: 100%;
-    margin: 0 auto;
     position: relative;
 
     @media (max-width: 767px) {
-        width: 70vw;
-    }
+            width: 70%;
+        }
+`
 
-    & img {
-        width: 100%;
-        position: absolute;
-    }
+export const CharAbsoluteParts = styled.img`
+    width: 100%;
+    position: absolute;
+`
+
+export const PlaceholderImg = styled.img`
+    width: 100%;
+    position: relative;
 `

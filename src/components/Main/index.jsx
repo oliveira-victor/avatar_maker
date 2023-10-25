@@ -12,7 +12,6 @@ import bottom1 from '../../assets/bottom/bottom1.png'
 
 const Main = () => {
 
-    /* const [charBody, setCharBody] = useState(body) */
     const charBody = body 
     const [charSkin, setCharSkin] = useState(skin1)
     const [charEyes, setCharEyes] = useState(eyes1)
@@ -42,13 +41,6 @@ const Main = () => {
 
     return (
         <S.Main>
-            <ItemsMenu 
-                handleSkin={handleSkin}
-                handleTop={handleTop} 
-                handleEyes={handleEyes} 
-                handleMouth={handleMouth} 
-                handleBottom={handleBottom}
-            />
             <AvatarContainer 
                 charBody={charBody} 
                 charSkin={charSkin} 
@@ -56,6 +48,13 @@ const Main = () => {
                 charEyes={charEyes}
                 charMouth={charMouth}
                 charBottom={charBottom} 
+            />
+            <ItemsMenu 
+                handleSkin={handleSkin}
+                handleTop={handleTop} 
+                handleEyes={handleEyes} 
+                handleMouth={handleMouth} 
+                handleBottom={handleBottom}
             />
         </S.Main>
     )
