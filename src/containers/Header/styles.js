@@ -3,13 +3,14 @@ import styled from "styled-components";
 export const Header = styled.header`
     background-color: #fff;
     height: 80px;
+    width: 100%;
     padding: 0 24px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
     z-index: 10;
-    position: sticky;
+    position: fixed;
 `
 
 export const HeaderBtn = styled.button`

@@ -2,10 +2,11 @@ import styled from "styled-components";
 
 export const ItemsContainer = styled.div`
     padding: 10px;
+    overflow-y: scroll;
 `
 
 export const Card = styled.div`
-    margin-top: 14px;
+    margin-bottom: 14px;
     background-color: #fff;
     padding: 16px;
     border-radius: 8px;

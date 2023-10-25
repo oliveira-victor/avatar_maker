@@ -1,4 +1,5 @@
 import Main from './components/Main'
+import Footer from './containers/Footer'
 import Header from './containers/Header'
 import GlobalStyle, { Container } from './styles'
 
@@ -10,6 +11,7 @@ function App() {
       <Container>
         <Header />
         <Main />
+        <Footer />
       </Container>
     </>
   )
