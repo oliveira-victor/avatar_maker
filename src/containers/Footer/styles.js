@@ -14,6 +14,13 @@ export const FooterContainer = styled.div`
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+    @media (max-width: 767px) {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+        font-size: 14px;
+    }
 `
 
 export const FooterIcons = styled.div`

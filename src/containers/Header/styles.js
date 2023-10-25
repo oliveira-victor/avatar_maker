@@ -11,6 +11,12 @@ export const Header = styled.header`
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
     z-index: 10;
     position: fixed;
+
+    @media (max-width: 767px) {
+        & h1 {
+            font-size: 30px;
+        }
+    }
 `
 
 export const HeaderBtn = styled.button`
@@ -22,4 +28,9 @@ export const HeaderBtn = styled.button`
     font-size: 20px;
     text-transform: uppercase;
     cursor: pointer;
+
+    @media (max-width: 767px) {
+        padding: 16px 20px;
+        font-size: 16px;
+    }
 `

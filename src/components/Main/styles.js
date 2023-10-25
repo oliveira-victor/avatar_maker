@@ -8,4 +8,8 @@ export const Main = styled.div`
     padding-top: 80px;
     display: grid;
     grid-template-columns: 35% 65%;
+
+    @media (max-width: 767px) {
+        display: block;
+    }
 `

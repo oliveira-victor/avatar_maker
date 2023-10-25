@@ -8,7 +8,7 @@ const Footer = () => {
         <S.Footer>
             <S.FooterContainer>
                 <span>
-                    Avatar Maker was created by Victor Freire Oliveira - Frontend Developer
+                    Avatar Maker was created by <nobr>Victor Freire Oliveira</nobr> - Frontend Developer
                     <br />with the use of React JS + Styled Components
                 </span>
                 <S.FooterIcons>

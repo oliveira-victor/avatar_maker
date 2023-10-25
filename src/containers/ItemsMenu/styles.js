@@ -3,6 +3,11 @@ import styled from "styled-components";
 export const ItemsContainer = styled.div`
     padding: 10px;
     overflow-y: scroll;
+
+    @media (max-width: 767px) {
+        display: flex;
+        overflow-x: scroll;
+    }
 `
 
 export const Card = styled.div`
@@ -11,6 +16,11 @@ export const Card = styled.div`
     padding: 16px;
     border-radius: 8px;
     box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+
+    @media (max-width: 767px) {
+        width: 94%;
+        margin: 0 6px;
+    }
 `
 
 export const Items = styled.div`
@@ -21,11 +31,20 @@ export const Items = styled.div`
     gap: 10px;
     flex-wrap: wrap;
 
+    @media (max-width: 767px) {
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+    }
+
     & img {
         height: 60px;
         border-radius: 6px;
         cursor: pointer;
         transition: all .2s ease;
+
+        @media (max-width: 767px) {
+            height: 46px;
+    }
 
         &:hover {
             transform: scale(1.05);
