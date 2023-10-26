@@ -2,6 +2,8 @@ import * as S from './styles'
 
 import imgTest from '../../assets/a01.jpg'
 
+import nullIcon from '../../assets/null-icon.png'
+
 import skin1 from '../../assets/skin/skin1.png'
 import skin2 from '../../assets/skin/skin2.png'
 import skin3 from '../../assets/skin/skin3.png'
@@ -28,6 +30,13 @@ import mouth3 from '../../assets/mouth/mouth3.png'
 import mouth4 from '../../assets/mouth/mouth4.png'
 import mouth5 from '../../assets/mouth/mouth5.png'
 import mouth6 from '../../assets/mouth/mouth6.png'
+
+import iconMouth1 from '../../assets/mouth/icon1.jpg'
+import iconMouth2 from '../../assets/mouth/icon2.jpg'
+import iconMouth3 from '../../assets/mouth/icon3.jpg'
+import iconMouth4 from '../../assets/mouth/icon4.jpg'
+import iconMouth5 from '../../assets/mouth/icon5.jpg'
+import iconMouth6 from '../../assets/mouth/icon6.jpg'
 
 import eyes1 from '../../assets/eyes/eyes1.png'
 import eyes2 from '../../assets/eyes/eyes2.png'
@@ -99,13 +108,13 @@ const ItemsMenu = ({ handleMouth, handleBottom, handleTop, handleSkin, handleEye
             <S.Card>
                 <h2>Mouth</h2>
                 <S.Items>
-                    {renderMouthThumbnail(imgTest, '')}
-                    {renderMouthThumbnail(imgTest, mouth1)}
-                    {renderMouthThumbnail(imgTest, mouth2)}
-                    {renderMouthThumbnail(imgTest, mouth3)}
-                    {renderMouthThumbnail(imgTest, mouth4)}
-                    {renderMouthThumbnail(imgTest, mouth5)}
-                    {renderMouthThumbnail(imgTest, mouth6)}
+                    {renderMouthThumbnail(nullIcon, '')}
+                    {renderMouthThumbnail(iconMouth1, mouth1)}
+                    {renderMouthThumbnail(iconMouth2, mouth2)}
+                    {renderMouthThumbnail(iconMouth3, mouth3)}
+                    {renderMouthThumbnail(iconMouth4, mouth4)}
+                    {renderMouthThumbnail(iconMouth5, mouth5)}
+                    {renderMouthThumbnail(iconMouth6, mouth6)}
                 </S.Items>
             </S.Card>
             <S.Card>
@@ -117,6 +126,22 @@ const ItemsMenu = ({ handleMouth, handleBottom, handleTop, handleSkin, handleEye
             </S.Card>
             <S.Card>
                 <h2>Bottom</h2>
+                <S.Items>
+                    {renderBottomThumbnail(imgTest, bottom1)}
+                    {renderBottomThumbnail(imgTest, bottom2)}
+                    {renderBottomThumbnail(imgTest, bottom3)}
+                </S.Items>
+            </S.Card>
+            <S.Card>
+                <h2>Hair</h2>
+                <S.Items>
+                    {renderBottomThumbnail(imgTest, bottom1)}
+                    {renderBottomThumbnail(imgTest, bottom2)}
+                    {renderBottomThumbnail(imgTest, bottom3)}
+                </S.Items>
+            </S.Card>
+            <S.Card>
+                <h2>Shoes</h2>
                 <S.Items>
                     {renderBottomThumbnail(imgTest, bottom1)}
                     {renderBottomThumbnail(imgTest, bottom2)}
