@@ -9,13 +9,14 @@ import eyes1 from '../../assets/eyes/eyes1.png'
 import top1 from '../../assets/top/top1.png'
 import body from '../../assets/body/body.png'
 import bottom1 from '../../assets/bottom/bottom1.png'
+import mouth1 from '../../assets/mouth/mouth1.png'
 
-const Main = () => {
+const Main = ({ refHandler }) => {
 
     const charBody = body 
     const [charSkin, setCharSkin] = useState(skin1)
     const [charEyes, setCharEyes] = useState(eyes1)
-    const [charMouth, setCharMouth] = useState()
+    const [charMouth, setCharMouth] = useState(mouth1)
     const [charTop, setCharTop] = useState(top1)
     const [charBottom, setCharBottom] = useState(bottom1)
 
@@ -42,6 +43,7 @@ const Main = () => {
     return (
         <S.Main>
             <AvatarContainer 
+                refHandler={refHandler}
                 charBody={charBody} 
                 charSkin={charSkin} 
                 charTop={charTop}

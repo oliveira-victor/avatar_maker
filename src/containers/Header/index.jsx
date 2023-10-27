@@ -1,11 +1,11 @@
 import * as S from './styles'
 
-const Header = () => {
+const Header = ({ saveButtonAction }) => {
 
     return (
         <S.Header>
             <h1>Avatar Maker</h1>
-            <S.HeaderBtn>Save</S.HeaderBtn>
+            <S.HeaderBtn onClick={saveButtonAction}>Save</S.HeaderBtn>
         </S.Header>
     )
 }
