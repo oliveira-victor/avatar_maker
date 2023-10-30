@@ -9,7 +9,7 @@ const GlobalStyle = createGlobalStyle`
     }
 
     h1 {
-        font-family: NexaBold;
+        font-family: NexaBold, sans-serif;
         font-size: 38px;
     }
 
@@ -20,7 +20,7 @@ const GlobalStyle = createGlobalStyle`
     }
 
     @font-face {
-        font-family: NexaBold;
+        font-family: NexaBold, sans-serif;
         src: url(./src/fonts/NexaBold.otf);
     }
 
@@ -35,13 +35,5 @@ export const Container = styled.div`
     width: 100%;
     margin: 0 auto;
 `
-
-/* export const Main = styled.main`
-    max-width: 1400px;
-    width: 100%;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: 35% 65%;
-` */
 
 export default GlobalStyle

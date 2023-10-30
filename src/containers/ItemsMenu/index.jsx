@@ -1,7 +1,5 @@
 import * as S from './styles'
 
-import imgTest from '../../assets/a01.jpg'
-
 import nullIcon from '../../assets/null-icon.png'
 
 import skin1 from '../../assets/skin/skin1.png'
@@ -47,14 +45,44 @@ import eyes6 from '../../assets/eyes/eyes6.png'
 import eyes7 from '../../assets/eyes/eyes7.png'
 import eyes8 from '../../assets/eyes/eyes8.png'
 
+import iconEyes1 from '../../assets/eyes/icon1.jpg'
+import iconEyes2 from '../../assets/eyes/icon2.jpg'
+import iconEyes3 from '../../assets/eyes/icon3.jpg'
+import iconEyes4 from '../../assets/eyes/icon4.jpg'
+import iconEyes5 from '../../assets/eyes/icon5.jpg'
+import iconEyes6 from '../../assets/eyes/icon6.jpg'
+import iconEyes7 from '../../assets/eyes/icon7.jpg'
+import iconEyes8 from '../../assets/eyes/icon8.jpg'
+
+import hair1 from '../../assets/hair/hair1.png'
+import hair2 from '../../assets/hair/hair2.png'
+import hair3 from '../../assets/hair/hair3.png'
+
+import iconHair1 from '../../assets/hair/icon1.jpg'
+import iconHair2 from '../../assets/hair/icon2.jpg'
+import iconHair3 from '../../assets/hair/icon3.jpg'
+
 import top1 from '../../assets/top/top1.png'
 import top2 from '../../assets/top/top2.png'
+
+import iconTop1 from '../../assets/top/icon1.jpg'
+import iconTop2 from '../../assets/top/icon2.jpg'
 
 import bottom1 from '../../assets/bottom/bottom1.png'
 import bottom2 from '../../assets/bottom/bottom2.png'
 import bottom3 from '../../assets/bottom/bottom3.png'
 
-const ItemsMenu = ({ handleMouth, handleBottom, handleTop, handleSkin, handleEyes }) => {
+import iconBottom1 from '../../assets/bottom/icon1.jpg'
+import iconBottom2 from '../../assets/bottom/icon2.jpg'
+import iconBottom3 from '../../assets/bottom/icon3.jpg'
+
+import shoes1 from '../../assets/shoes/shoes1.png'
+import shoes2 from '../../assets/shoes/shoes2.png'
+
+import iconShoes1 from '../../assets/shoes/icon1.jpg'
+import iconShoes2 from '../../assets/shoes/icon2.jpg'
+
+const ItemsMenu = ({ handleMouth, handleBottom, handleTop, handleSkin, handleEyes, handleShoes, handleHair }) => {
 
     const renderSkinThumbnail = (thumbnail, itemPart) => {
         return <img src={thumbnail} onClick={() => handleSkin(itemPart)} />
@@ -76,6 +104,14 @@ const ItemsMenu = ({ handleMouth, handleBottom, handleTop, handleSkin, handleEye
         return <img src={thumbnail} onClick={() => handleMouth(itemPart)} />
     }
 
+    const renderHairThumbnail = (thumbnail, itemPart) => {
+        return <img src={thumbnail} onClick={() => handleHair(itemPart)} />
+    }
+
+    const renderShoesThumbnail = (thumbnail, itemPart) => {
+        return <img src={thumbnail} onClick={() => handleShoes(itemPart)} />
+    }
+
     return (
         <S.ItemsContainer>
             <S.Card>
@@ -95,14 +131,14 @@ const ItemsMenu = ({ handleMouth, handleBottom, handleTop, handleSkin, handleEye
             <S.Card>
                 <h2>Eyes</h2>
                 <S.Items>
-                    {renderEyesThumbnail(imgTest, eyes1)}
-                    {renderEyesThumbnail(imgTest, eyes2)}
-                    {renderEyesThumbnail(imgTest, eyes3)}
-                    {renderEyesThumbnail(imgTest, eyes4)}
-                    {renderEyesThumbnail(imgTest, eyes5)}
-                    {renderEyesThumbnail(imgTest, eyes6)}
-                    {renderEyesThumbnail(imgTest, eyes7)}
-                    {renderEyesThumbnail(imgTest, eyes8)}
+                    {renderEyesThumbnail(iconEyes1, eyes1)}
+                    {renderEyesThumbnail(iconEyes2, eyes2)}
+                    {renderEyesThumbnail(iconEyes3, eyes3)}
+                    {renderEyesThumbnail(iconEyes4, eyes4)}
+                    {renderEyesThumbnail(iconEyes5, eyes5)}
+                    {renderEyesThumbnail(iconEyes6, eyes6)}
+                    {renderEyesThumbnail(iconEyes7, eyes7)}
+                    {renderEyesThumbnail(iconEyes8, eyes8)}
                 </S.Items>
             </S.Card>
             <S.Card>
@@ -120,32 +156,33 @@ const ItemsMenu = ({ handleMouth, handleBottom, handleTop, handleSkin, handleEye
             <S.Card>
                 <h2>Top</h2>
                 <S.Items>
-                    {renderTopThumbnail(imgTest, top1)}
-                    {renderTopThumbnail(imgTest, top2)}
+                    {renderTopThumbnail(iconTop1, top1)}
+                    {renderTopThumbnail(iconTop2, top2)}
                 </S.Items>
             </S.Card>
             <S.Card>
                 <h2>Bottom</h2>
                 <S.Items>
-                    {renderBottomThumbnail(imgTest, bottom1)}
-                    {renderBottomThumbnail(imgTest, bottom2)}
-                    {renderBottomThumbnail(imgTest, bottom3)}
+                    {renderBottomThumbnail(iconBottom1, bottom1)}
+                    {renderBottomThumbnail(iconBottom2, bottom2)}
+                    {renderBottomThumbnail(iconBottom3, bottom3)}
                 </S.Items>
             </S.Card>
             <S.Card>
                 <h2>Hair</h2>
                 <S.Items>
-                    {renderBottomThumbnail(imgTest, bottom1)}
-                    {renderBottomThumbnail(imgTest, bottom2)}
-                    {renderBottomThumbnail(imgTest, bottom3)}
+                    {renderHairThumbnail(nullIcon, '')}
+                    {renderHairThumbnail(iconHair1, hair1)}
+                    {renderHairThumbnail(iconHair2, hair2)}
+                    {renderHairThumbnail(iconHair3, hair3)}
                 </S.Items>
             </S.Card>
             <S.Card>
                 <h2>Shoes</h2>
                 <S.Items>
-                    {renderBottomThumbnail(imgTest, bottom1)}
-                    {renderBottomThumbnail(imgTest, bottom2)}
-                    {renderBottomThumbnail(imgTest, bottom3)}
+                    {renderShoesThumbnail(nullIcon, '')}
+                    {renderShoesThumbnail(iconShoes1, shoes1)}
+                    {renderShoesThumbnail(iconShoes2, shoes2)}
                 </S.Items>
             </S.Card>
         </S.ItemsContainer>
