@@ -15,7 +15,7 @@ const GlobalStyle = createGlobalStyle`
 
     body {
         background-color: #D9D9D9;
-        font-family: NexaLight;
+        font-family: NexaLight, sans-serif;
         font-size: 20px;
     }
 
@@ -25,7 +25,7 @@ const GlobalStyle = createGlobalStyle`
     }
 
     @font-face {
-        font-family: NexaLight;
+        font-family: NexaLight, sans-serif;
         src: url(./src/fonts/NexaLight.otf);
     }
 `
