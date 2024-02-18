@@ -1,5 +1,7 @@
-import GlobalStyle, { Wrapper } from './styles'
+import GlobalStyle, { MainContainer, Wrapper } from './styles'
 import Header from "./containers/Header"
+import SideA from './containers/SideA'
+import SideB from './containers/SideB'
 
 function App() {
 
@@ -8,6 +10,10 @@ function App() {
       <GlobalStyle />
       <Wrapper>
         <Header />
+        <MainContainer>
+          <SideA />
+          <SideB />
+        </MainContainer>
       </Wrapper>
     </>
   )

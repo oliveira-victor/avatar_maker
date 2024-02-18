@@ -9,6 +9,8 @@ export const Header = styled.header`
     align-items: center;
     padding: 0 40px;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    width: 100%;
 `
 
 export const SaveBtn = styled.button`

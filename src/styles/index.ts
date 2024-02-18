@@ -12,7 +12,7 @@ const GlobalStyle = createGlobalStyle`
         font-family: 'Quicksand', sans-serif;
     }
 
-    h1, h2 {
+    h1{
         font-family: 'Ubuntu', sans-serif;
     }
 `
@@ -22,6 +22,16 @@ export const Wrapper = styled.div`
     margin: 0 auto;
     background-color: ${colors.bodyBg};
     min-height: 100vh;
+`
+
+export const MainContainer = styled.main`
+    background-color: ${colors.bg};
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-top: 80px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    min-height: 80vh;
 `
 
 export default GlobalStyle
