@@ -1,6 +1,10 @@
+import * as S from './styles'
+
 const SideB = () => {
     return (
-        <h2>side b</h2>
+        <S.TopBar>
+            <input type="text" name="name" id="name" placeholder="Character's name" />
+        </S.TopBar>
     )
 }
 

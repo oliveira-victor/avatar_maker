@@ -17,9 +17,13 @@ export const SaveBtn = styled.button`
     background-color: ${colors.darkBg};
     color: #fff;
     font-size: 20px;
-    font-weight: bold;
     padding: 14px 30px;
     border: 0;
     border-radius: 6px;
     cursor: pointer;
+
+    img {
+        height: 18px;
+        margin-left: 10px;
+    }
 `

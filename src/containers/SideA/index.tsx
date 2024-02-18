@@ -3,7 +3,14 @@ import * as S from './styles'
 const SideA = () => {
     return (
         <S.ContainerA>
-            <h2>side a</h2>
+            <S.AvatarContainer>
+                <div className='avatarName'>
+                    Avatar name
+                </div>
+                <div>
+                    avatar
+                </div>
+            </S.AvatarContainer>
         </S.ContainerA>
     )
 }
