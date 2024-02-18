@@ -1,7 +1,15 @@
+import GlobalStyle, { Wrapper } from './styles'
+import Header from "./containers/Header"
+
 function App() {
 
   return (
-    <h1>Avatar Maker</h1>
+    <>
+      <GlobalStyle />
+      <Wrapper>
+        <Header />
+      </Wrapper>
+    </>
   )
 }
 
