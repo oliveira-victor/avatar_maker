@@ -4,6 +4,18 @@ import skin2 from '../../assets/images/skin/thumb02.jpg'
 import eyes1 from '../../assets/images/eyes/thumb01.jpg'
 import eyes2 from '../../assets/images/eyes/thumb02.jpg'
 
+import mouth1 from '../../assets/images/mouth/thumb01.jpg'
+import mouth2 from '../../assets/images/mouth/thumb02.jpg'
+
+import top1 from '../../assets/images/top/thumb01.jpg'
+import top2 from '../../assets/images/top/thumb02.jpg'
+
+import bottom1 from '../../assets/images/bottom/thumb01.jpg'
+import bottom2 from '../../assets/images/bottom/thumb02.jpg'
+
+import shoes1 from '../../assets/images/shoes/thumb01.jpg'
+import shoes2 from '../../assets/images/shoes/thumb02.jpg'
+
 export const avatarData = [
     {
         id: 1,
@@ -33,30 +45,30 @@ export const avatarData = [
             }
         ]
     },
-/*     {
+    {
         id: 3,
         title: 'Mouth',
         image: [
             {
-                thumb: eyes1,
+                thumb: mouth1,
                 full: ''
             },
             {
-                thumb: eyes2,
+                thumb: mouth2,
                 full: ''
             }
         ]
     },
     {
         id: 4,
-        title: 'Shirt',
+        title: 'Top',
         image: [
             {
-                thumb: eyes1,
+                thumb: top1,
                 full: ''
             },
             {
-                thumb: eyes2,
+                thumb: top2,
                 full: ''
             }
         ]
@@ -66,11 +78,11 @@ export const avatarData = [
         title: 'Bottom',
         image: [
             {
-                thumb: eyes1,
+                thumb: bottom1,
                 full: ''
             },
             {
-                thumb: eyes2,
+                thumb: bottom2,
                 full: ''
             }
         ]
@@ -80,29 +92,15 @@ export const avatarData = [
         title: 'Shoes',
         image: [
             {
-                thumb: eyes1,
+                thumb: shoes1,
                 full: ''
             },
             {
-                thumb: eyes2,
+                thumb: shoes2,
                 full: ''
             }
         ]
-    },
-    {
-        id: 7,
-        title: 'Hat',
-        image: [
-            {
-                thumb: eyes1,
-                full: ''
-            },
-            {
-                thumb: eyes2,
-                full: ''
-            }
-        ]
-    } */
+    }
 ]
 
 // http://placehold.it/50x50
