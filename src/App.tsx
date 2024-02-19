@@ -3,11 +3,13 @@ import Header from "./containers/Header"
 import SideA from './containers/SideA'
 import SideB from './containers/SideB'
 import Footer from './containers/Footer'
+import { Provider } from 'react-redux'
+import { store } from './store'
 
 function App() {
 
   return (
-    <>
+    <Provider store={store}>
       <GlobalStyle />
       <Wrapper>
         <Header />
@@ -17,7 +19,7 @@ function App() {
         </MainContainer>
         <Footer />
       </Wrapper>
-    </>
+    </Provider>
   )
 }
 

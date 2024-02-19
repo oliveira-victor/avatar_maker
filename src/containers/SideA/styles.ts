@@ -16,8 +16,8 @@ export const AvatarContainer = styled.div`
     height: 100%;
 
     .avatarName {
-        background-color: blue;
         text-align: center;
         font-size: 30px;
+        height: 40px;
     }
 `

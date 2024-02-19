@@ -1,16 +1,30 @@
+import { useDispatch } from 'react-redux'
+import { ChangeEvent, useEffect, useState } from 'react'
+
 import ListItem from '../../Components/ListItem'
+import { thumbsData } from '../../utils/data/thumbsData'
+import { setName } from '../../store/reducers/name'
+
 import * as S from './styles'
 
-import { thumbsData } from '../../utils/data/thumbsData'
-
-
-
 const SideB = () => {
+
+    const dispatch = useDispatch()
+
+    const [newName, setNewName] = useState<string>('')
+
+    useEffect(() => {
+        dispatch(setName(newName))
+    }, [newName])
+
+    const handleInputChange = (event: ChangeEvent<HTMLInputElement>) => {
+        setNewName(event.target.value)
+    }
 
     return (
         <S.ContainerB id="customScrollbar">
             <S.TopBar>
-                <input type="text" name="name" id="name" placeholder="Character's name" />
+                <input value={newName} onChange={handleInputChange} type="text" name="name" id="name" placeholder="Character's name" />
             </S.TopBar>
             <ul>
                 {thumbsData.map((item) => (
