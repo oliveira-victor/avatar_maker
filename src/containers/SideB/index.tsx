@@ -1,7 +1,7 @@
 import { useDispatch } from 'react-redux'
 import { ChangeEvent, useEffect, useState } from 'react'
 
-import ListItem from '../../Components/ListItem'
+import ListItem from '../../components/ListItem'
 import { thumbsData } from '../../utils/data/thumbsData'
 import { setName } from '../../store/reducers/name'
 
