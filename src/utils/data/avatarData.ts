@@ -4,7 +4,7 @@ import skin2 from '../../assets/images/skin/thumb02.jpg'
 import eyes1 from '../../assets/images/eyes/thumb01.jpg'
 import eyes2 from '../../assets/images/eyes/thumb02.jpg'
 
-export const thumbsData = [
+export const avatarData = [
     {
         id: 1,
         title: 'Skin',

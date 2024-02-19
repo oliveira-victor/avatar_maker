@@ -2,7 +2,7 @@ import { useDispatch } from 'react-redux'
 import { ChangeEvent, useEffect, useState } from 'react'
 
 import ListItem from '../../components/ListItem'
-import { thumbsData } from '../../utils/data/thumbsData'
+import { avatarData } from '../../utils/data/avatarData'
 import { setName } from '../../store/reducers/name'
 
 import * as S from './styles'
@@ -27,7 +27,7 @@ const SideB = () => {
                 <input value={newName} onChange={handleInputChange} type="text" name="name" id="name" placeholder="Character's name" />
             </S.TopBar>
             <ul>
-                {thumbsData.map((item) => (
+                {avatarData.map((item) => (
                     <ListItem key={item.id}
                         id={item.id}
                         title={item.title}
