@@ -28,7 +28,7 @@ const SideB = () => {
             </S.TopBar>
             <ul>
                 {thumbsData.map((item) => (
-                    <ListItem 
+                    <ListItem key={item.id}
                         id={item.id}
                         title={item.title}
                         image={item.image}

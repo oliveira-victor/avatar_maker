@@ -1,12 +1,18 @@
+import { useState } from 'react'
+
 import * as S from './styles'
 
 import arrow from '../../assets/images/arrow.svg'
-import { useState } from 'react'
+
+type Imgs = {
+    thumb: string
+    full: string
+}
 
 type Props = {
     id: number
     title: string
-    image: string[]
+    image: Imgs[]
 }
 
 const ListItem = ({ id, title, image }: Props) => {
@@ -22,8 +28,13 @@ const ListItem = ({ id, title, image }: Props) => {
             {cardExpand && (
                 <S.ThumbsList>
                     {image.map((img) => (
-                            <img key={img} src={img} alt={`Thumbnail for ${title}`} />
-                        ))}
+                        <img 
+                            key={img.thumb} 
+                            src={img.thumb} 
+                            alt={`Thumbnail for ${title}`} 
+                            onClick={() => console.log(`test ${img.full}`)}
+                        />
+                    ))}
                 </S.ThumbsList>
             )}
         </S.ListItem>
