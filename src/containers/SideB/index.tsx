@@ -8,7 +8,7 @@ import { thumbsData } from '../../utils/data/thumbsData'
 const SideB = () => {
 
     return (
-        <S.ContainerB>
+        <S.ContainerB id="customScrollbar">
             <S.TopBar>
                 <input type="text" name="name" id="name" placeholder="Character's name" />
             </S.TopBar>

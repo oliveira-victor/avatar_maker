@@ -15,6 +15,23 @@ const GlobalStyle = createGlobalStyle`
     h1{
         font-family: 'Ubuntu', sans-serif;
     }
+
+    #customScrollbar::-webkit-scrollbar-track {
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+        border-radius: 10px;
+        background-color: #F5F5F5;
+    }
+
+    #customScrollbar::-webkit-scrollbar {
+        width: 12px;
+        background-color: #F5F5F5;
+    }
+
+    #customScrollbar::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+        background-color: #555;
+    }
 `
 
 export const Wrapper = styled.div`
