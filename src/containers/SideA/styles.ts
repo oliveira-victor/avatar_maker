@@ -17,9 +17,9 @@ export const ContainerA = styled.div`
 
 export const AvatarContainer = styled.div`
     background-color: red;
-    max-width: 400px;
+    max-width: 450px;
     width: 100%;
-    max-height: 500px;
+    max-height: 600px;
     height: 100%;
     margin: 0 10px;
 
