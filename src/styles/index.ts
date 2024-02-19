@@ -31,7 +31,7 @@ export const MainContainer = styled.main`
     padding-top: 80px;
     display: grid;
     grid-template-columns: 1fr 2fr;
-    min-height: 90vh;
+    height: 100vh;
 `
 
 export default GlobalStyle

@@ -3,22 +3,28 @@ import * as S from './styles'
 import arrow from '../../assets/images/arrow.svg'
 import { useState } from 'react'
 
-const ListItem = () => {
+type Props = {
+    id: number
+    title: string
+    image: string[]
+}
+
+const ListItem = ({ id, title, image }: Props) => {
 
     const [cardExpand, setCardExpand] = useState(true)
 
     return (
-        <S.ListItem>
-            <S.ItemTitle>
-                <h2>Title</h2>
-                <img onClick={() => setCardExpand(!cardExpand)} className={cardExpand ? '' : 'rotate'} src={arrow} alt="Arrow icon" />
+        <S.ListItem key={id}>
+            <S.ItemTitle onClick={() => setCardExpand(!cardExpand)}>
+                <h2>{title}</h2>
+                <img className={cardExpand ? '' : 'rotate'} src={arrow} alt="Arrow icon" />
             </S.ItemTitle>
             {cardExpand && (
                 <S.ThumbsList>
-                <img src="http://placehold.it/50x50" alt="" />
-                <img src="http://placehold.it/50x50" alt="" />
-                <img src="http://placehold.it/50x50" alt="" />
-            </S.ThumbsList>
+                    {image.map((img) => (
+                        <img src={img} alt={`Thumbnail for ${title}`} />
+                    ))}
+                </S.ThumbsList>
             )}
         </S.ListItem>
     )

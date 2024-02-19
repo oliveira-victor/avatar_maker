@@ -1,16 +1,27 @@
 import ListItem from '../../Components/ListItem'
 import * as S from './styles'
 
+import { thumbsData } from '../../utils/data/thumbsData'
+
+
+
 const SideB = () => {
+
     return (
-        <div>
+        <S.ContainerB>
             <S.TopBar>
                 <input type="text" name="name" id="name" placeholder="Character's name" />
             </S.TopBar>
-            <ListItem />
-            <ListItem />
-            <ListItem />
-        </div>
+            <ul>
+                {thumbsData.map((item) => (
+                    <ListItem 
+                        id={item.id}
+                        title={item.title}
+                        image={item.image}
+                    />
+                ))}
+            </ul>
+        </S.ContainerB>
     )
 }
 

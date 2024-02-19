@@ -1,6 +1,10 @@
 import styled from "styled-components";
 import { colors } from "../../styles/colors";
 
+export const ContainerB = styled.div`
+    overflow-y: scroll;
+`
+
 export const TopBar = styled.nav`
     height: fit-content;
     padding: 10px 20px;

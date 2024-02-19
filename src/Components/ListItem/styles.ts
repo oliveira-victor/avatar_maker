@@ -10,13 +10,13 @@ export const ListItem = styled.div`
     padding: 4px;
 `
 
-export const ItemTitle = styled.div`
-    
+export const ItemTitle = styled.li`
     background-color: ${colors.bg};
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 6px 10px;
+    cursor: pointer;
     
     h2 {
         font-size: 26px;
@@ -25,7 +25,6 @@ export const ItemTitle = styled.div`
 
     img {
         height: 16px;
-        cursor: pointer;
         transition: all .2s ease;
     }
 
@@ -35,6 +34,7 @@ export const ItemTitle = styled.div`
 `
 
 export const ThumbsList = styled.div`
+    background-color: ${colors.bg};
     padding: 10px 4px 6px 4px;
     display: flex;
     flex-wrap: wrap;
