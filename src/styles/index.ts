@@ -1,5 +1,6 @@
 import styled, { createGlobalStyle } from 'styled-components'
 import { colors } from './colors'
+import { screenSize } from './screenSize'
 
 const GlobalStyle = createGlobalStyle`
     * {
@@ -16,21 +17,23 @@ const GlobalStyle = createGlobalStyle`
         font-family: 'Ubuntu', sans-serif;
     }
 
-    #customScrollbar::-webkit-scrollbar-track {
+    @media (min-width: 768px) {
+        #customScrollbar::-webkit-scrollbar-track {
         -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
         border-radius: 10px;
         background-color: #F5F5F5;
     }
 
-    #customScrollbar::-webkit-scrollbar {
-        width: 12px;
-        background-color: #F5F5F5;
-    }
+        #customScrollbar::-webkit-scrollbar {
+            width: 12px;
+            background-color: #F5F5F5;
+        }
 
-    #customScrollbar::-webkit-scrollbar-thumb {
-        border-radius: 10px;
-        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
-        background-color: #555;
+        #customScrollbar::-webkit-scrollbar-thumb {
+            border-radius: 10px;
+            -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+            background-color: #555;
+        }
     }
 `
 
@@ -47,8 +50,13 @@ export const MainContainer = styled.main`
     margin: 0 auto;
     padding-top: 80px;
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 500px auto;
     height: 100vh;
+
+    @media (max-width: ${screenSize.phone}) {
+        display: flex;
+        flex-direction: column;
+    }
 `
 
 export default GlobalStyle

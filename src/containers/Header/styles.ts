@@ -21,9 +21,10 @@ export const SaveBtn = styled.button`
     border: 0;
     border-radius: 6px;
     cursor: pointer;
+    display: flex;
+    gap: 10px;
 
     img {
         height: 18px;
-        margin-left: 10px;
     }
 `

@@ -22,8 +22,8 @@ const ListItem = ({ id, title, image }: Props) => {
             {cardExpand && (
                 <S.ThumbsList>
                     {image.map((img) => (
-                        <img src={img} alt={`Thumbnail for ${title}`} />
-                    ))}
+                            <img key={img} src={img} alt={`Thumbnail for ${title}`} />
+                        ))}
                 </S.ThumbsList>
             )}
         </S.ListItem>
