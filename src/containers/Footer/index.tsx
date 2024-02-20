@@ -10,7 +10,7 @@ const Footer = () => {
             <S.FooterContent>
                 <div>
                     <h2>Avatar Maker</h2>
-                    <span>by Victor Freire Oliveira</span> <span>- Software Engineer</span> | <span>&copy; {new Date().getFullYear()}</span>
+                    <span>by <a href="https://victoroliveira.vercel.app/" target='_blank'>Victor Freire Oliveira</a></span> <span>- Software Engineer</span> | <span>&copy; {new Date().getFullYear()}</span>
                 </div>
                 <S.footerLogos>
                     <a href="https://victoroliveira.vercel.app/" target='_blank'>

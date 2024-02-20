@@ -51,7 +51,7 @@ export const MainContainer = styled.main`
     padding-top: 80px;
     display: grid;
     grid-template-columns: 500px auto;
-    height: 100vh;
+    min-height: 100vh;
 
     @media (max-width: ${screenSize.phone}) {
         display: flex;

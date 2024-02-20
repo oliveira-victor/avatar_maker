@@ -21,6 +21,15 @@ export const FooterContent = styled.div`
         gap: 40px;
     }
 
+    a {
+        text-decoration: none;
+        color: #fff;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
     h2 {
         font-size: 30px;
         font-family: 'Ubuntu', sans-serif;

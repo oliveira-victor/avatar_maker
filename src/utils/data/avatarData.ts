@@ -1,6 +1,9 @@
 import skin1 from '../../assets/images/skin/thumb01.jpg'
 import skin2 from '../../assets/images/skin/thumb02.jpg'
 
+import skinImg1 from '../../assets/images/skin/img01.png'
+import skinImg2 from '../../assets/images/skin/img02.png'
+
 import eyes1 from '../../assets/images/eyes/thumb01.jpg'
 import eyes2 from '../../assets/images/eyes/thumb02.jpg'
 
@@ -23,11 +26,11 @@ export const avatarData = [
         image: [
             {
                 thumb: skin1,
-                full: skin1
+                full: skinImg1
             },
             {
                 thumb: skin2,
-                full: ''
+                full: skinImg2
             }
         ]
     },
@@ -102,5 +105,3 @@ export const avatarData = [
         ]
     }
 ]
-
-// http://placehold.it/50x50

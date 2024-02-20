@@ -5,6 +5,7 @@ export const Header = styled.header`
     background-color: ${colors.bg};
     height: 80px;
     display: flex;
+    gap: 30px;
     justify-content: space-between;
     align-items: center;
     padding: 0 40px;

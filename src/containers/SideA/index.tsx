@@ -1,6 +1,9 @@
 import { useSelector } from 'react-redux'
-import * as S from './styles'
 import { RootReducer } from '../../store'
+
+import * as S from './styles'
+
+import body from '../../assets/images/body/body.png'
 
 const SideA = () => {
 
@@ -12,9 +15,9 @@ const SideA = () => {
                 <div className='avatarName'>
                     {charName}
                 </div>
-                <div>
-                    avatar
-                </div>
+                <S.ImagesContainer>
+                    <img src={body} alt="Body image" />
+                </S.ImagesContainer>
             </S.AvatarContainer>
         </S.ContainerA>
     )

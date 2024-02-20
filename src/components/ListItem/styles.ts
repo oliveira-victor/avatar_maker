@@ -14,6 +14,7 @@ export const ListItem = styled.div`
     @media (max-width: ${screenSize.phone}) {
         height: 100%;
         width: 94%;
+        margin-right: 6px;
     }
 `
 
@@ -32,6 +33,7 @@ export const ItemTitle = styled.li`
     img {
         height: 16px;
         transition: all .2s ease;
+        margin-left: 6px;
     }
 
     .rotate {
