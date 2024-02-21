@@ -16,7 +16,7 @@ export const ContainerA = styled.div`
 `
 
 export const AvatarContainer = styled.div`
-    background-color: ${colors.bg};
+    /* background-color: ${colors.bg}; */
     border-radius: 20px;
     max-width: 450px;
     width: 100%;
@@ -39,8 +39,6 @@ export const AvatarContainer = styled.div`
         font-family: "Tangerine", cursive;
         font-weight: bold;
 
-        border: 2px solid green;
-
         @media (max-width: 400px) {
             font-size: 40px;
         }
@@ -48,8 +46,6 @@ export const AvatarContainer = styled.div`
 `
 
 export const ImagesContainer = styled.div`
-    border: 2px solid blue;
-
     width: 80%;
     text-align: center;
     position: relative;
