@@ -1,17 +1,20 @@
 import skin1 from '../../assets/images/skin/thumb01.jpg'
 import skin2 from '../../assets/images/skin/thumb02.jpg'
 
-import skinImg1 from '../../assets/images/skin01.png'
-import skinImg2 from '../../assets/images/skin02.png'
+import skinImg1 from '../../assets/images/skin/skin01.png'
+import skinImg2 from '../../assets/images/skin/skin02.png'
 
 import eyes1 from '../../assets/images/eyes/thumb01.jpg'
 import eyes2 from '../../assets/images/eyes/thumb02.jpg'
 
-import eyesImg1 from '../../assets/images/eyes01.png'
-import eyesImg2 from '../../assets/images/eyes02.png'
+import eyesImg1 from '../../assets/images/eyes/eyes01.png'
+import eyesImg2 from '../../assets/images/eyes/eyes02.png'
 
 import mouth1 from '../../assets/images/mouth/thumb01.jpg'
 import mouth2 from '../../assets/images/mouth/thumb02.jpg'
+
+import hair1 from '../../assets/images/hair/thumb01.jpg'
+import hair2 from '../../assets/images/hair/thumb02.jpg'
 
 import top1 from '../../assets/images/top/thumb01.jpg'
 import top2 from '../../assets/images/top/thumb02.jpg'
@@ -67,6 +70,20 @@ export const avatarData = [
     },
     {
         id: 4,
+        title: 'Hair',
+        image: [
+            {
+                thumb: hair1,
+                full: ''
+            },
+            {
+                thumb: hair2,
+                full: ''
+            }
+        ]
+    },
+    {
+        id: 5,
         title: 'Top',
         image: [
             {
@@ -80,7 +97,7 @@ export const avatarData = [
         ]
     },
     {
-        id: 5,
+        id: 6,
         title: 'Bottom',
         image: [
             {
@@ -94,7 +111,7 @@ export const avatarData = [
         ]
     },
     {
-        id: 6,
+        id: 7,
         title: 'Shoes',
         image: [
             {
