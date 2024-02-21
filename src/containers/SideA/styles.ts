@@ -16,7 +16,8 @@ export const ContainerA = styled.div`
 `
 
 export const AvatarContainer = styled.div`
-    background-color: red;
+    background-color: ${colors.bg};
+    border-radius: 20px;
     max-width: 450px;
     width: 100%;
     max-height: 600px;
@@ -48,11 +49,18 @@ export const AvatarContainer = styled.div`
 
 export const ImagesContainer = styled.div`
     border: 2px solid blue;
+
     width: 80%;
     text-align: center;
+    position: relative;
 
     img {
-        background-color: green;
         width: 100%;
+    }
+
+    .absoluteIgm {
+        position: absolute;
+        top: 0;
+        left: 0;
     }
 `

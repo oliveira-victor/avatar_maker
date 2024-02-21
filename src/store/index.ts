@@ -1,10 +1,12 @@
 import { configureStore } from '@reduxjs/toolkit'
 
 import nameReducer from './reducers/name'
+import charReducer from './reducers/avatarLayers'
 
 export const store = configureStore({
     reducer: {
-        setName: nameReducer
+        setName: nameReducer,
+        setCharLayer: charReducer
     }
 })
 

@@ -7,6 +7,9 @@ import skinImg2 from '../../assets/images/skin/img02.png'
 import eyes1 from '../../assets/images/eyes/thumb01.jpg'
 import eyes2 from '../../assets/images/eyes/thumb02.jpg'
 
+import eyesImg1 from '../../assets/images/eyes/img01.png'
+import eyesImg2 from '../../assets/images/eyes/img02.png'
+
 import mouth1 from '../../assets/images/mouth/thumb01.jpg'
 import mouth2 from '../../assets/images/mouth/thumb02.jpg'
 
@@ -40,11 +43,11 @@ export const avatarData = [
         image: [
             {
                 thumb: eyes1,
-                full: ''
+                full: eyesImg1
             },
             {
                 thumb: eyes2,
-                full: ''
+                full: eyesImg2
             }
         ]
     },
