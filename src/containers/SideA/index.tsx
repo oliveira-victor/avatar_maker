@@ -5,7 +5,6 @@ import * as S from './styles'
 
 import empty from '../../assets/images/body/empty.png'
 import body from '../../assets/images/body/body.png'
-import skin1 from '../../assets/images/skin/img01.png'
 
 const SideA = () => {
 
