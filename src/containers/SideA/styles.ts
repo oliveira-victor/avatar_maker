@@ -46,9 +46,13 @@ export const AvatarContainer = styled.div`
 `
 
 export const ImagesContainer = styled.div`
-    width: 80%;
+    width: 100%;
     text-align: center;
     position: relative;
+
+    @media (max-width: 400px) {
+        width: 80%;
+    }
 
     img {
         width: 100%;

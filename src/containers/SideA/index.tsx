@@ -18,10 +18,10 @@ const SideA = () => {
                     {charName}
                 </div>
                 <S.ImagesContainer>
+                    <img className='absoluteIgm' src={body} alt="Avatar body image" />
                     <img src={empty} alt="Just an empty image" />
                     <img className='absoluteIgm' src={charParts.skin} alt="" />
                     <img className='absoluteIgm' src={charParts.eyes} alt="" />
-                    <img className='absoluteIgm' src={body} alt="Avatar body image" />
                 </S.ImagesContainer>
             </S.AvatarContainer>
         </S.ContainerA>

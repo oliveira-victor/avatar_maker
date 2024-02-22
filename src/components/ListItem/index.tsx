@@ -23,6 +23,12 @@ const ListItem = ({ id, title, image }: Props) => {
 
     const dispatch = useDispatch()
 
+    const getBgColor = (title: string) => {
+        if (title === 'Eyes') {
+            return '#d7d46d'
+        }
+    }
+
     return (
         <S.ListItem key={id}>
             <S.ItemTitle onClick={() => setCardExpand(!cardExpand)}>
@@ -36,6 +42,7 @@ const ListItem = ({ id, title, image }: Props) => {
                             key={img.thumb} 
                             src={img.thumb} 
                             alt={`Thumbnail for ${title}`} 
+                            style={{backgroundColor: `${getBgColor(title)}`}}
                             onClick={() => dispatch(setCharLayer(img.full))}
                         />
                     ))}
