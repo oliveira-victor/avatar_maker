@@ -27,6 +27,10 @@ const ListItem = ({ id, title, image }: Props) => {
         if (title === 'Eyes') {
             return '#d7d46d'
         }
+
+        if (title === 'Top') {
+            return '#8f442f'
+        }
     }
 
     return (

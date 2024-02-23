@@ -17,6 +17,22 @@ const GlobalStyle = createGlobalStyle`
         font-family: 'Ubuntu', sans-serif;
     }
 
+    @keyframes float {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-20px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+}
+
+    .float {
+        animation: float 6s ease-in-out infinite;
+    }
+
     @media (min-width: 768px) {
         #customScrollbar::-webkit-scrollbar-track {
         -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
