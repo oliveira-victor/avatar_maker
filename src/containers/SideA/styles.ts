@@ -50,7 +50,7 @@ export const ImagesContainer = styled.div`
     text-align: center;
     position: relative;
 
-    @media (max-width: 400px) {
+    @media (max-height: 700px) {
         width: 80%;
     }
 

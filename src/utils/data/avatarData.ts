@@ -18,9 +18,31 @@ import skinImg8 from '../../assets/images/skin/skin08.png'
 
 import eyes1 from '../../assets/images/eyes/thumb01.png'
 import eyes2 from '../../assets/images/eyes/thumb02.png'
+import eyes3 from '../../assets/images/eyes/thumb03.png'
+import eyes4 from '../../assets/images/eyes/thumb04.png'
+import eyes5 from '../../assets/images/eyes/thumb05.png'
+import eyes6 from '../../assets/images/eyes/thumb06.png'
+import eyes7 from '../../assets/images/eyes/thumb07.png'
+import eyes8 from '../../assets/images/eyes/thumb08.png'
+import eyes9 from '../../assets/images/eyes/thumb09.png'
+import eyes10 from '../../assets/images/eyes/thumb10.png'
+import eyes11 from '../../assets/images/eyes/thumb11.png'
+import eyes12 from '../../assets/images/eyes/thumb12.png'
+import eyes13 from '../../assets/images/eyes/thumb13.png'
 
 import eyesImg1 from '../../assets/images/eyes/eyes01.png'
 import eyesImg2 from '../../assets/images/eyes/eyes02.png'
+import eyesImg3 from '../../assets/images/eyes/eyes03.png'
+import eyesImg4 from '../../assets/images/eyes/eyes04.png'
+import eyesImg5 from '../../assets/images/eyes/eyes05.png'
+import eyesImg6 from '../../assets/images/eyes/eyes06.png'
+import eyesImg7 from '../../assets/images/eyes/eyes07.png'
+import eyesImg8 from '../../assets/images/eyes/eyes08.png'
+import eyesImg9 from '../../assets/images/eyes/eyes09.png'
+import eyesImg10 from '../../assets/images/eyes/eyes10.png'
+import eyesImg11 from '../../assets/images/eyes/eyes11.png'
+import eyesImg12 from '../../assets/images/eyes/eyes12.png'
+import eyesImg13 from '../../assets/images/eyes/eyes13.png'
 
 import mouth1 from '../../assets/images/mouth/thumb01.jpg'
 import mouth2 from '../../assets/images/mouth/thumb02.jpg'
@@ -87,6 +109,50 @@ export const avatarData = [
             {
                 thumb: eyes2,
                 full: eyesImg2
+            },
+            {
+                thumb: eyes3,
+                full: eyesImg3
+            },
+            {
+                thumb: eyes4,
+                full: eyesImg4
+            },
+            {
+                thumb: eyes5,
+                full: eyesImg5
+            },
+            {
+                thumb: eyes6,
+                full: eyesImg6
+            },
+            {
+                thumb: eyes7,
+                full: eyesImg7
+            },
+            {
+                thumb: eyes8,
+                full: eyesImg8
+            },
+            {
+                thumb: eyes9,
+                full: eyesImg9
+            },
+            {
+                thumb: eyes10,
+                full: eyesImg10
+            },
+            {
+                thumb: eyes11,
+                full: eyesImg11
+            },
+            {
+                thumb: eyes12,
+                full: eyesImg12
+            },
+            {
+                thumb: eyes13,
+                full: eyesImg13
             }
         ]
     },

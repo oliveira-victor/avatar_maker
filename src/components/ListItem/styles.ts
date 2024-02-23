@@ -13,7 +13,7 @@ export const ListItem = styled.div`
 
     @media (max-width: ${screenSize.phone}) {
         height: 100%;
-        width: 94%;
+        width: 86%;
         margin-right: 6px;
     }
 `
