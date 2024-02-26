@@ -44,8 +44,47 @@ import eyesImg11 from '../../assets/images/eyes/eyes11.png'
 import eyesImg12 from '../../assets/images/eyes/eyes12.png'
 import eyesImg13 from '../../assets/images/eyes/eyes13.png'
 
-import mouth1 from '../../assets/images/mouth/thumb01.jpg'
-import mouth2 from '../../assets/images/mouth/thumb02.jpg'
+import mouth1 from '../../assets/images/mouth/thumb01.png'
+import mouth2 from '../../assets/images/mouth/thumb02.png'
+import mouth3 from '../../assets/images/mouth/thumb03.png'
+import mouth4 from '../../assets/images/mouth/thumb04.png'
+import mouth5 from '../../assets/images/mouth/thumb05.png'
+import mouth6 from '../../assets/images/mouth/thumb06.png'
+import mouth7 from '../../assets/images/mouth/thumb07.png'
+import mouth8 from '../../assets/images/mouth/thumb08.png'
+import mouth9 from '../../assets/images/mouth/thumb09.png'
+import mouth10 from '../../assets/images/mouth/thumb10.png'
+import mouth11 from '../../assets/images/mouth/thumb11.png'
+import mouth12 from '../../assets/images/mouth/thumb12.png'
+import mouth13 from '../../assets/images/mouth/thumb13.png'
+import mouth14 from '../../assets/images/mouth/thumb14.png'
+import mouth15 from '../../assets/images/mouth/thumb15.png'
+import mouth16 from '../../assets/images/mouth/thumb16.png'
+import mouth17 from '../../assets/images/mouth/thumb17.png'
+import mouth18 from '../../assets/images/mouth/thumb18.png'
+import mouth19 from '../../assets/images/mouth/thumb19.png'
+import mouth20 from '../../assets/images/mouth/thumb20.png'
+
+import mouthImg1 from '../../assets/images/mouth/mouth01.png'
+import mouthImg2 from '../../assets/images/mouth/mouth02.png'
+import mouthImg3 from '../../assets/images/mouth/mouth03.png'
+import mouthImg4 from '../../assets/images/mouth/mouth04.png'
+import mouthImg5 from '../../assets/images/mouth/mouth05.png'
+import mouthImg6 from '../../assets/images/mouth/mouth06.png'
+import mouthImg7 from '../../assets/images/mouth/mouth07.png'
+import mouthImg8 from '../../assets/images/mouth/mouth08.png'
+import mouthImg9 from '../../assets/images/mouth/mouth09.png'
+import mouthImg10 from '../../assets/images/mouth/mouth10.png'
+import mouthImg11 from '../../assets/images/mouth/mouth11.png'
+import mouthImg12 from '../../assets/images/mouth/mouth12.png'
+import mouthImg13 from '../../assets/images/mouth/mouth13.png'
+import mouthImg14 from '../../assets/images/mouth/mouth14.png'
+import mouthImg15 from '../../assets/images/mouth/mouth15.png'
+import mouthImg16 from '../../assets/images/mouth/mouth16.png'
+import mouthImg17 from '../../assets/images/mouth/mouth17.png'
+import mouthImg18 from '../../assets/images/mouth/mouth18.png'
+import mouthImg19 from '../../assets/images/mouth/mouth19.png'
+import mouthImg20 from '../../assets/images/mouth/mouth20.png'
 
 import hair1 from '../../assets/images/hair/thumb01.jpg'
 import hair2 from '../../assets/images/hair/thumb02.jpg'
@@ -164,11 +203,83 @@ export const avatarData = [
         image: [
             {
                 thumb: mouth1,
-                full: ''
+                full: mouthImg1
             },
             {
                 thumb: mouth2,
-                full: ''
+                full: mouthImg2
+            },
+            {
+                thumb: mouth3,
+                full: mouthImg3
+            },
+            {
+                thumb: mouth4,
+                full: mouthImg4
+            },
+            {
+                thumb: mouth5,
+                full: mouthImg5
+            },
+            {
+                thumb: mouth6,
+                full: mouthImg6
+            },
+            {
+                thumb: mouth7,
+                full: mouthImg7
+            },
+            {
+                thumb: mouth8,
+                full: mouthImg8
+            },
+            {
+                thumb: mouth9,
+                full: mouthImg9
+            },
+            {
+                thumb: mouth10,
+                full: mouthImg10
+            },
+            {
+                thumb: mouth11,
+                full: mouthImg11
+            },
+            {
+                thumb: mouth12,
+                full: mouthImg12
+            },
+            {
+                thumb: mouth13,
+                full: mouthImg13
+            },
+            {
+                thumb: mouth14,
+                full: mouthImg14
+            },
+            {
+                thumb: mouth15,
+                full: mouthImg15
+            },
+            {
+                thumb: mouth16,
+                full: mouthImg16
+            },
+            {
+                thumb: mouth17,
+                full: mouthImg17
+            },
+            {
+                thumb: mouth18,
+                full: mouthImg18
+            },
+            {
+                thumb: mouth19,
+                full: mouthImg19
+            },
+            {
+                thumb: mouth20,
+                full: mouthImg20
             }
         ]
     },
