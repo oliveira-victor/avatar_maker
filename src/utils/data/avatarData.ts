@@ -94,8 +94,11 @@ import mouthImg18 from '../../assets/images/mouth/mouth18.png'
 import mouthImg19 from '../../assets/images/mouth/mouth19.png'
 import mouthImg20 from '../../assets/images/mouth/mouth20.png'
 
-import hair1 from '../../assets/images/hair/thumb01.jpg'
-import hair2 from '../../assets/images/hair/thumb02.jpg'
+import hair1 from '../../assets/images/hair/thumb01.png'
+import hair2 from '../../assets/images/hair/thumb02.png'
+
+import hairImg1 from '../../assets/images/hair/hair01.png'
+import hairImg2 from '../../assets/images/hair/hair02.png'
 
 import top1 from '../../assets/images/top/thumb01.png'
 import top2 from '../../assets/images/top/thumb02.jpg'
@@ -313,11 +316,11 @@ export const avatarData = [
         image: [
             {
                 thumb: hair1,
-                full: ''
+                full: hairImg1
             },
             {
                 thumb: hair2,
-                full: ''
+                full: hairImg2
             }
         ]
     },

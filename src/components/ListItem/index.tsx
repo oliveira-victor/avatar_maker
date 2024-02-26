@@ -33,7 +33,11 @@ const ListItem = ({ id, title, image }: Props) => {
         }
 
         if (title === 'Mouth') {
-            return '#2f6799'
+            return '#8db2b3'
+        }
+
+        if (title === 'Hair') {
+            return '#8cd38f'
         }
     }
 
