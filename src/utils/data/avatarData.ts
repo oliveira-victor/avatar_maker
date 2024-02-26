@@ -6,6 +6,10 @@ import skin5 from '../../assets/images/skin/thumb05.jpg'
 import skin6 from '../../assets/images/skin/thumb06.jpg'
 import skin7 from '../../assets/images/skin/thumb07.jpg'
 import skin8 from '../../assets/images/skin/thumb08.jpg'
+import skin9 from '../../assets/images/skin/thumb09.jpg'
+import skin10 from '../../assets/images/skin/thumb10.jpg'
+import skin11 from '../../assets/images/skin/thumb11.jpg'
+import skin12 from '../../assets/images/skin/thumb12.jpg'
 
 import skinImg1 from '../../assets/images/skin/skin01.png'
 import skinImg2 from '../../assets/images/skin/skin02.png'
@@ -15,6 +19,10 @@ import skinImg5 from '../../assets/images/skin/skin05.png'
 import skinImg6 from '../../assets/images/skin/skin06.png'
 import skinImg7 from '../../assets/images/skin/skin07.png'
 import skinImg8 from '../../assets/images/skin/skin08.png'
+import skinImg9 from '../../assets/images/skin/skin09.png'
+import skinImg10 from '../../assets/images/skin/skin10.png'
+import skinImg11 from '../../assets/images/skin/skin11.png'
+import skinImg12 from '../../assets/images/skin/skin12.png'
 
 import eyes1 from '../../assets/images/eyes/thumb01.png'
 import eyes2 from '../../assets/images/eyes/thumb02.png'
@@ -136,6 +144,22 @@ export const avatarData = [
             {
                 thumb: skin8,
                 full: skinImg8
+            },
+            {
+                thumb: skin9,
+                full: skinImg9
+            },
+            {
+                thumb: skin10,
+                full: skinImg10
+            },
+            {
+                thumb: skin11,
+                full: skinImg11
+            },
+            {
+                thumb: skin12,
+                full: skinImg12
             }
         ]
     },
