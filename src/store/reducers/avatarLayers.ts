@@ -37,7 +37,7 @@ const nameSlice = createSlice({
                 state.avatarLayers.mouth = action.payload
             }
 
-            if (action.payload.includes("hair")) {
+            if (action.payload.includes("hair") || action.payload.includes("empty")) {
                 state.avatarLayers.hair = action.payload
             }
 

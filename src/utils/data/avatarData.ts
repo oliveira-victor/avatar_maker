@@ -1,3 +1,6 @@
+import remove from '../../assets/images/remove.svg'
+import empty from '../../assets/images/empty.png'
+
 import skin1 from '../../assets/images/skin/thumb01.jpg'
 import skin2 from '../../assets/images/skin/thumb02.jpg'
 import skin3 from '../../assets/images/skin/thumb03.jpg'
@@ -314,6 +317,10 @@ export const avatarData = [
         id: 4,
         title: 'Hair',
         image: [
+            {
+                thumb: remove,
+                full: empty
+            },
             {
                 thumb: hair1,
                 full: hairImg1

@@ -1,10 +1,11 @@
 import { useState } from 'react'
+import { useDispatch } from 'react-redux'
+
+import { setCharLayer } from '../../store/reducers/avatarLayers'
 
 import * as S from './styles'
 
 import arrow from '../../assets/images/arrow.svg'
-import { useDispatch } from 'react-redux'
-import { setCharLayer } from '../../store/reducers/avatarLayers'
 
 type Imgs = {
     thumb: string

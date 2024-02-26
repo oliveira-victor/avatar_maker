@@ -3,7 +3,7 @@ import { RootReducer } from '../../store'
 
 import * as S from './styles'
 
-import empty from '../../assets/images/body/empty.png'
+import empty from '../../assets/images/empty.png'
 import body from '../../assets/images/body/body.png'
 import skin from '../../assets/images/skin/skin01.png'
 import eyes from '../../assets/images/eyes/eyes01.png'
@@ -27,7 +27,7 @@ const SideA = () => {
                     <img className='absoluteIgm' src={charParts.skin === '' ? skin : charParts.skin} alt="Character's skin" />
                     <img className='absoluteIgm' src={charParts.eyes === '' ? eyes : charParts.eyes} alt="Character's eyes" />
                     <img className='absoluteIgm' src={charParts.mouth === '' ? mouth : charParts.mouth} alt="Character's mouth" />
-                    {charParts.hair === '' ? '' : <img className='absoluteIgm' src={charParts.hair} alt="Character's hair" />}
+                    {charParts.hair === '' || charParts.hair.includes("empty") ? '' : <img className='absoluteIgm' src={charParts.hair} alt="Character's hair" />}
                     <img className='absoluteIgm' src={charParts.top === '' ? top : charParts.top} alt="Character's shirt" />
                 </S.ImagesContainer>
             </S.AvatarContainer>
