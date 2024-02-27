@@ -118,6 +118,24 @@ import shoes2 from '../../assets/images/shoes/thumb02.png'
 import shoesImg1 from '../../assets/images/shoes/shoes01.png'
 import shoesImg2 from '../../assets/images/shoes/shoes02.png'
 
+import features1 from '../../assets/images/features/thumb01.png'
+
+import featuresImg1 from '../../assets/images/features/features01.png'
+
+import extra1 from '../../assets/images/extra/thumb01.png'
+
+import extraImg1 from '../../assets/images/extra/extra01.gif'
+
+import bg1 from '../../assets/images/background/thumb01.jpg'
+import bg2 from '../../assets/images/background/thumb02.jpg'
+import bg3 from '../../assets/images/background/thumb03.jpg'
+import bg4 from '../../assets/images/background/thumb04.jpg'
+
+import bgImg1 from '../../assets/images/background/background01.jpg'
+import bgImg2 from '../../assets/images/background/background02.jpg'
+import bgImg3 from '../../assets/images/background/background03.jpg'
+import bgImg4 from '../../assets/images/background/background04.jpg'
+
 export const avatarData = [
     {
         id: 1,
@@ -378,6 +396,60 @@ export const avatarData = [
             {
                 thumb: shoes2,
                 full: shoesImg2
+            }
+        ]
+    },
+    {
+        id: 8,
+        title: 'Features',
+        image: [
+            {
+                thumb: remove,
+                full: 'featuresEmpty'
+            },
+            {
+                thumb: features1,
+                full: featuresImg1
+            }
+        ]
+    },
+    {
+        id: 9,
+        title: 'Extra',
+        image: [
+            {
+                thumb: remove,
+                full: 'extraEmpty'
+            },
+            {
+                thumb: extra1,
+                full: extraImg1
+            }
+        ]
+    },
+    {
+        id: 10,
+        title: 'Background',
+        image: [
+            {
+                thumb: remove,
+                full: 'backgroundEmpty'
+            },
+            {
+                thumb: bg1,
+                full: bgImg1
+            },
+            {
+                thumb: bg2,
+                full: bgImg2
+            },
+            {
+                thumb: bg3,
+                full: bgImg3
+            },
+            {
+                thumb: bg4,
+                full: bgImg4
             }
         ]
     }

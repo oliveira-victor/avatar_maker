@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { colors } from "../../styles/colors";
 import { screenSize } from "../../styles/screenSize";
 
 export const ContainerA = styled.div`
@@ -7,16 +6,13 @@ export const ContainerA = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    /* min-height: 70%; */
 
     @media (max-width: ${screenSize.phone}) {
-        /* min-height: auto; */
         flex-grow: 2;
     }
 `
 
 export const AvatarContainer = styled.div`
-    /* background-color: ${colors.bg}; */
     border-radius: 20px;
     max-width: 450px;
     width: 100%;
@@ -24,10 +20,10 @@ export const AvatarContainer = styled.div`
     height: 100%;
     margin: 0 10px;
     position: relative;
-
     display: flex;
     justify-content: center;
     align-items: center;
+    background-size: cover;
 
     .avatarName {
         color: ${(props) => props.theme.mainTxt};
@@ -43,6 +39,14 @@ export const AvatarContainer = styled.div`
         @media (max-width: 400px) {
             font-size: 40px;
         }
+    }
+
+    .frame {
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        border-radius: 10px;
     }
 `
 
