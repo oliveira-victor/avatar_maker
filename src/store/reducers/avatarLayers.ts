@@ -7,6 +7,8 @@ type avatarState = {
         mouth: string
         hair: string
         top: string
+        bottom: string
+        shoes: string
     }
 }
 
@@ -16,7 +18,9 @@ const initialState: avatarState = {
         eyes: '',
         mouth: '',
         hair: '',
-        top: ''
+        top: '',
+        bottom: '',
+        shoes: ''
     }
 }
 
@@ -37,12 +41,20 @@ const nameSlice = createSlice({
                 state.avatarLayers.mouth = action.payload
             }
 
-            if (action.payload.includes("hair") || action.payload.includes("empty")) {
+            if (action.payload.includes("hair") || action.payload.includes("hairEmpty")) {
                 state.avatarLayers.hair = action.payload
             }
 
             if (action.payload.includes("top")) {
                 state.avatarLayers.top = action.payload
+            }
+
+            if (action.payload.includes("bottom") || action.payload.includes("bottomEmpty")) {
+                state.avatarLayers.bottom = action.payload
+            }
+
+            if (action.payload.includes("shoes") || action.payload.includes("shoesEmpty")) {
+                state.avatarLayers.shoes = action.payload
             }
         }
     }

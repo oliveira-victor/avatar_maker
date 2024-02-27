@@ -40,6 +40,14 @@ const ListItem = ({ id, title, image }: Props) => {
         if (title === 'Hair') {
             return '#8cd38f'
         }
+
+        if (title === 'Bottom') {
+            return '#c973bd'
+        }
+
+        if (title === 'Shoes') {
+            return '#488a34'
+        }
     }
 
     return (

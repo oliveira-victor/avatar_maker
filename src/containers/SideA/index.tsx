@@ -27,8 +27,10 @@ const SideA = () => {
                     <img className='absoluteIgm' src={charParts.skin === '' ? skin : charParts.skin} alt="Character's skin" />
                     <img className='absoluteIgm' src={charParts.eyes === '' ? eyes : charParts.eyes} alt="Character's eyes" />
                     <img className='absoluteIgm' src={charParts.mouth === '' ? mouth : charParts.mouth} alt="Character's mouth" />
-                    {charParts.hair === '' || charParts.hair.includes("empty") ? '' : <img className='absoluteIgm' src={charParts.hair} alt="Character's hair" />}
+                    {charParts.hair === '' || charParts.hair.includes("hairEmpty") ? '' : <img className='absoluteIgm' src={charParts.hair} alt="Character's hair" />}
                     <img className='absoluteIgm' src={charParts.top === '' ? top : charParts.top} alt="Character's shirt" />
+                    {charParts.shoes === '' || charParts.shoes.includes("shoesEmpty") ? '' : <img className='absoluteIgm' src={charParts.shoes} alt="Character's shoes" />}
+                    {charParts.bottom === '' || charParts.bottom.includes("bottomEmpty") ? '' : <img className='absoluteIgm' src={charParts.bottom} alt="Character's bottom" />}
                 </S.ImagesContainer>
             </S.AvatarContainer>
         </S.ContainerA>

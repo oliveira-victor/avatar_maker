@@ -1,5 +1,4 @@
 import remove from '../../assets/images/remove.svg'
-import empty from '../../assets/images/empty.png'
 
 import skin1 from '../../assets/images/skin/thumb01.jpg'
 import skin2 from '../../assets/images/skin/thumb02.jpg'
@@ -99,20 +98,25 @@ import mouthImg20 from '../../assets/images/mouth/mouth20.png'
 
 import hair1 from '../../assets/images/hair/thumb01.png'
 import hair2 from '../../assets/images/hair/thumb02.png'
+import hair3 from '../../assets/images/hair/thumb03.png'
 
 import hairImg1 from '../../assets/images/hair/hair01.png'
 import hairImg2 from '../../assets/images/hair/hair02.png'
+import hairImg3 from '../../assets/images/hair/hair03.png'
 
 import top1 from '../../assets/images/top/thumb01.png'
-import top2 from '../../assets/images/top/thumb02.jpg'
 
 import topImg1 from '../../assets/images/top/top01.png'
 
-import bottom1 from '../../assets/images/bottom/thumb01.jpg'
-import bottom2 from '../../assets/images/bottom/thumb02.jpg'
+import bottom1 from '../../assets/images/bottom/thumb01.png'
 
-import shoes1 from '../../assets/images/shoes/thumb01.jpg'
-import shoes2 from '../../assets/images/shoes/thumb02.jpg'
+import bottomImg1 from '../../assets/images/bottom/bottom01.png'
+
+import shoes1 from '../../assets/images/shoes/thumb01.png'
+import shoes2 from '../../assets/images/shoes/thumb02.png'
+
+import shoesImg1 from '../../assets/images/shoes/shoes01.png'
+import shoesImg2 from '../../assets/images/shoes/shoes02.png'
 
 export const avatarData = [
     {
@@ -319,7 +323,7 @@ export const avatarData = [
         image: [
             {
                 thumb: remove,
-                full: empty
+                full: 'hairEmpty'
             },
             {
                 thumb: hair1,
@@ -328,6 +332,10 @@ export const avatarData = [
             {
                 thumb: hair2,
                 full: hairImg2
+            },
+            {
+                thumb: hair3,
+                full: hairImg3
             }
         ]
     },
@@ -338,10 +346,6 @@ export const avatarData = [
             {
                 thumb: top1,
                 full: topImg1
-            },
-            {
-                thumb: top2,
-                full: ''
             }
         ]
     },
@@ -350,12 +354,12 @@ export const avatarData = [
         title: 'Bottom',
         image: [
             {
-                thumb: bottom1,
-                full: ''
+                thumb: remove,
+                full: 'bottomEmpty'
             },
             {
-                thumb: bottom2,
-                full: ''
+                thumb: bottom1,
+                full: bottomImg1
             }
         ]
     },
@@ -364,12 +368,16 @@ export const avatarData = [
         title: 'Shoes',
         image: [
             {
+                thumb: remove,
+                full: 'shoesEmpty'
+            },
+            {
                 thumb: shoes1,
-                full: ''
+                full: shoesImg1
             },
             {
                 thumb: shoes2,
-                full: ''
+                full: shoesImg2
             }
         ]
     }

@@ -39,14 +39,14 @@ const SideB = ({switchTheme, themeIsDark}: Props) => {
                         style={{ filter: themeIsDark ? 'invert(1)' : '' }}
                         src={sunIcon}
                         alt="Light theme icon"
-                        title='Switch to light theme'
+                        title='Switch theme'
                     />
                     <img
                         className={themeIsDark ? 'activateIcon' : ''}
                         style={{ filter: themeIsDark ? 'invert(1)' : '' }}
                         src={moonIcon}
                         alt="Dark theme icon"
-                        title='Switch to dark theme'
+                        title='Switch theme'
                     />
                 </div>
             </S.TopBar>
