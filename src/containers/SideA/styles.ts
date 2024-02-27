@@ -30,6 +30,7 @@ export const AvatarContainer = styled.div`
     align-items: center;
 
     .avatarName {
+        color: ${(props) => props.theme.mainTxt};
         text-align: center;
         font-size: 50px;
         width: 100%;
