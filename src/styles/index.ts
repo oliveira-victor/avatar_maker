@@ -1,5 +1,4 @@
 import styled, { createGlobalStyle } from 'styled-components'
-import { colors } from './colors'
 import { screenSize } from './screenSize'
 
 const GlobalStyle = createGlobalStyle`
@@ -37,18 +36,18 @@ const GlobalStyle = createGlobalStyle`
         #customScrollbar::-webkit-scrollbar-track {
         -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
         border-radius: 10px;
-        background-color: #F5F5F5;
+        background-color: ${(props) => props.theme.scrollBg};
     }
 
         #customScrollbar::-webkit-scrollbar {
             width: 12px;
-            background-color: #F5F5F5;
+            background-color: ${(props) => props.theme.scrollBg};
         }
 
         #customScrollbar::-webkit-scrollbar-thumb {
             border-radius: 10px;
             -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
-            background-color: #555;
+            background-color: ${(props) => props.theme.scroll};
         }
     }
 `
@@ -56,12 +55,12 @@ const GlobalStyle = createGlobalStyle`
 export const Wrapper = styled.div`
     max-width: 1920px;
     margin: 0 auto;
-    background-color: ${colors.bodyBg};
+    background-color: ${(props) => props.theme.bodyBg};
     min-height: 100vh;
 `
 
 export const MainContainer = styled.main`
-    background-color: ${colors.bg};
+    background-color: ${(props) => props.theme.cardBg};
     max-width: 1440px;
     margin: 0 auto;
     padding-top: 80px;

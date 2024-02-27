@@ -1,15 +1,16 @@
 import styled from "styled-components";
-import { colors } from "../../styles/colors";
 import { screenSize } from "../../styles/screenSize";
 
 export const ListItem = styled.div`
-    background-color: ${colors.bg};
+    background-color: ${(props) => props.theme.cardBg};
+    color: ${(props) => props.theme.mainTxt};
     width: 98%;
     margin: 0 auto;
     margin-top: 4px;
-    border: 2px solid ${colors.bodyBg};
+    border: 2px solid ${(props) => props.theme.border};
     border-radius: 10px;
     padding: 4px;
+    transition: all .3s ease;
 
     @media (max-width: ${screenSize.phone}) {
         height: 100%;
@@ -46,7 +47,7 @@ export const ThumbsList = styled.div`
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
-    border-top: 2px solid ${colors.bodyBg};
+    border-top: 2px solid ${(props) => props.theme.border};
 
     img {
         cursor: pointer;

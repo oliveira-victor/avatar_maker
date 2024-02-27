@@ -3,7 +3,7 @@ import { colors } from "../../styles/colors";
 import { screenSize } from "../../styles/screenSize";
 
 export const ContainerA = styled.div`
-    background-color: ${colors.avatarBg};
+    background-color: ${(props) => props.theme.avatarBg};
     display: flex;
     justify-content: center;
     align-items: center;

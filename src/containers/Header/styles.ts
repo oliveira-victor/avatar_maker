@@ -1,8 +1,8 @@
 import styled from "styled-components";
-import { colors } from "../../styles/colors";
 
 export const Header = styled.header`
-    background-color: ${colors.bg};
+    background-color: ${(props) => props.theme.cardBg};
+    color: ${(props) => props.theme.mainTxt};
     height: 80px;
     display: flex;
     gap: 30px;
@@ -12,11 +12,12 @@ export const Header = styled.header`
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
     position: absolute;
     width: 100%;
+    transition: all .3s ease;
 `
 
 export const SaveBtn = styled.button`
-    background-color: ${colors.darkBg};
-    color: #fff;
+    background-color: ${(props) => props.theme.saveBtn};
+    color: ${(props) => props.theme.cardBg};
     font-size: 20px;
     padding: 14px 30px;
     border: 0;
