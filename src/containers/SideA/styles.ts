@@ -38,11 +38,13 @@ export const AvatarContainer = styled.div`
 
         @media (max-width: 400px) {
             font-size: 40px;
+            transform: translateY(10px);
         }
     }
 
     .frame {
         width: 100%;
+        height: 100%;
         position: absolute;
         top: 0;
         left: 0;
