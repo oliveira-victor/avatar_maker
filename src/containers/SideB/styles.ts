@@ -49,7 +49,9 @@ export const TopBar = styled.nav`
         gap: 10px;
         cursor: pointer;
     }
+`
 
+export const ToggleBtn = styled.div`
     img {
         height: 14px;
         opacity: 0.4;

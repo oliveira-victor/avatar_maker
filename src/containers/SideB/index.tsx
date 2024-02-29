@@ -9,6 +9,7 @@ import * as S from './styles'
 
 import sunIcon from '../../assets/images/sun-icon.svg'
 import moonIcon from '../../assets/images/moon-icon.svg'
+import Shuffle from '../../components/Shuffle/Shuffle'
 
 type Props = {
     switchTheme: () => void
@@ -33,7 +34,7 @@ const SideB = ({switchTheme, themeIsDark}: Props) => {
         <S.ContainerB id="customScrollbar">
             <S.TopBar>
                 <input value={newName} onChange={handleInputChange} type="text" name="name" id="name" placeholder="Character's name" />
-                <div onClick={switchTheme}>
+                <S.ToggleBtn onClick={switchTheme}>
                     <img
                         className={themeIsDark ? '' : 'activateIcon'}
                         style={{ filter: themeIsDark ? 'invert(1)' : '' }}
@@ -48,7 +49,8 @@ const SideB = ({switchTheme, themeIsDark}: Props) => {
                         alt="Dark theme icon"
                         title='Switch theme'
                     />
-                </div>
+                </S.ToggleBtn>
+                <Shuffle themeIsDark={themeIsDark} />
             </S.TopBar>
             <ul>
                 {avatarData.map((item) => (
