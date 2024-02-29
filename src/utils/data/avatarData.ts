@@ -105,8 +105,18 @@ import hairImg2 from '../../assets/images/hair/hair02.png'
 import hairImg3 from '../../assets/images/hair/hair03.png'
 
 import top1 from '../../assets/images/top/thumb01.png'
+import top2 from '../../assets/images/top/thumb02.png'
+import top3 from '../../assets/images/top/thumb03.png'
+import top4 from '../../assets/images/top/thumb04.png'
+import top5 from '../../assets/images/top/thumb05.png'
+import top6 from '../../assets/images/top/thumb06.png'
 
 import topImg1 from '../../assets/images/top/top01.png'
+import topImg2 from '../../assets/images/top/top02.png'
+import topImg3 from '../../assets/images/top/top03.png'
+import topImg4 from '../../assets/images/top/top04.png'
+import topImg5 from '../../assets/images/top/top05.png'
+import topImg6 from '../../assets/images/top/top06.png'
 
 import bottom1 from '../../assets/images/bottom/thumb01.png'
 
@@ -114,9 +124,15 @@ import bottomImg1 from '../../assets/images/bottom/bottom01.png'
 
 import shoes1 from '../../assets/images/shoes/thumb01.png'
 import shoes2 from '../../assets/images/shoes/thumb02.png'
+import shoes3 from '../../assets/images/shoes/thumb03.png'
+import shoes4 from '../../assets/images/shoes/thumb04.png'
+import shoes5 from '../../assets/images/shoes/thumb05.png'
 
 import shoesImg1 from '../../assets/images/shoes/shoes01.png'
 import shoesImg2 from '../../assets/images/shoes/shoes02.png'
+import shoesImg3 from '../../assets/images/shoes/shoes03.png'
+import shoesImg4 from '../../assets/images/shoes/shoes04.png'
+import shoesImg5 from '../../assets/images/shoes/shoes05.png'
 
 import features1 from '../../assets/images/features/thumb01.png'
 
@@ -364,6 +380,26 @@ export const avatarData = [
             {
                 thumb: top1,
                 full: topImg1
+            },
+            {
+                thumb: top2,
+                full: topImg2
+            },
+            {
+                thumb: top3,
+                full: topImg3
+            },
+            {
+                thumb: top4,
+                full: topImg4
+            },
+            {
+                thumb: top5,
+                full: topImg5
+            },
+            {
+                thumb: top6,
+                full: topImg6
             }
         ]
     },
@@ -396,6 +432,18 @@ export const avatarData = [
             {
                 thumb: shoes2,
                 full: shoesImg2
+            },
+            {
+                thumb: shoes3,
+                full: shoesImg3
+            },
+            {
+                thumb: shoes4,
+                full: shoesImg4
+            },
+            {
+                thumb: shoes5,
+                full: shoesImg5
             }
         ]
     },

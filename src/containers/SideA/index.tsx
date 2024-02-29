@@ -31,9 +31,9 @@ const SideA = () => {
                     <img className='absoluteIgm' src={charParts.mouth === '' ? mouth : charParts.mouth} alt="Character's mouth" />
                     {charParts.hair === '' || charParts.hair.includes("hairEmpty") ? '' : <img className='absoluteIgm' src={charParts.hair} alt="Character's hair" />}
                     {charParts.features === '' || charParts.features.includes("featuresEmpty") ? '' : <img className='absoluteIgm' src={charParts.features} alt="Character's feature" />}
-                    <img className='absoluteIgm' src={charParts.top === '' ? top : charParts.top} alt="Character's shirt" />
                     {charParts.shoes === '' || charParts.shoes.includes("shoesEmpty") ? '' : <img className='absoluteIgm' src={charParts.shoes} alt="Character's shoes" />}
                     {charParts.bottom === '' || charParts.bottom.includes("bottomEmpty") ? '' : <img className='absoluteIgm' src={charParts.bottom} alt="Character's bottom" />}
+                    <img className='absoluteIgm' src={charParts.top === '' ? top : charParts.top} alt="Character's shirt" />
                     {charParts.extra === '' || charParts.extra.includes("extraEmpty") ? '' : <img className='absoluteIgm' src={charParts.extra} alt="Extra image" />}
                 </S.ImagesContainer>
             </S.AvatarContainer>
