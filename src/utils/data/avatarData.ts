@@ -135,8 +135,18 @@ import shoesImg4 from '../../assets/images/shoes/shoes04.png'
 import shoesImg5 from '../../assets/images/shoes/shoes05.png'
 
 import features1 from '../../assets/images/features/thumb01.png'
+import features2 from '../../assets/images/features/thumb02.png'
+import features3 from '../../assets/images/features/thumb03.png'
+import features4 from '../../assets/images/features/thumb04.png'
+import features5 from '../../assets/images/features/thumb05.png'
+import features6 from '../../assets/images/features/thumb06.png'
 
 import featuresImg1 from '../../assets/images/features/features01.png'
+import featuresImg2 from '../../assets/images/features/features02.png'
+import featuresImg3 from '../../assets/images/features/features03.png'
+import featuresImg4 from '../../assets/images/features/features04.png'
+import featuresImg5 from '../../assets/images/features/features05.png'
+import featuresImg6 from '../../assets/images/features/features06.png'
 
 import extra1 from '../../assets/images/extra/thumb01.png'
 
@@ -458,6 +468,26 @@ export const avatarData = [
             {
                 thumb: features1,
                 full: featuresImg1
+            },
+            {
+                thumb: features2,
+                full: featuresImg2
+            },
+            {
+                thumb: features3,
+                full: featuresImg3
+            },
+            {
+                thumb: features4,
+                full: featuresImg4
+            },
+            {
+                thumb: features5,
+                full: featuresImg5
+            },
+            {
+                thumb: features6,
+                full: featuresImg6
             }
         ]
     },
