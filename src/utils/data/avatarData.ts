@@ -74,6 +74,7 @@ import mouth17 from '../../assets/images/mouth/thumb17.png'
 import mouth18 from '../../assets/images/mouth/thumb18.png'
 import mouth19 from '../../assets/images/mouth/thumb19.png'
 import mouth20 from '../../assets/images/mouth/thumb20.png'
+import mouth21 from '../../assets/images/mouth/thumb21.png'
 
 import mouthImg1 from '../../assets/images/mouth/mouth01.png'
 import mouthImg2 from '../../assets/images/mouth/mouth02.png'
@@ -95,6 +96,7 @@ import mouthImg17 from '../../assets/images/mouth/mouth17.png'
 import mouthImg18 from '../../assets/images/mouth/mouth18.png'
 import mouthImg19 from '../../assets/images/mouth/mouth19.png'
 import mouthImg20 from '../../assets/images/mouth/mouth20.png'
+import mouthImg21 from '../../assets/images/mouth/mouth21.png'
 
 import hair1 from '../../assets/images/hair/thumb01.png'
 import hair2 from '../../assets/images/hair/thumb02.png'
@@ -141,12 +143,26 @@ import shoes2 from '../../assets/images/shoes/thumb02.png'
 import shoes3 from '../../assets/images/shoes/thumb03.png'
 import shoes4 from '../../assets/images/shoes/thumb04.png'
 import shoes5 from '../../assets/images/shoes/thumb05.png'
+import shoes6 from '../../assets/images/shoes/thumb06.png'
+import shoes7 from '../../assets/images/shoes/thumb07.png'
+import shoes8 from '../../assets/images/shoes/thumb08.png'
+import shoes9 from '../../assets/images/shoes/thumb09.png'
+import shoes10 from '../../assets/images/shoes/thumb10.png'
+import shoes11 from '../../assets/images/shoes/thumb11.png'
+import shoes12 from '../../assets/images/shoes/thumb12.png'
 
 import shoesImg1 from '../../assets/images/shoes/shoes01.png'
 import shoesImg2 from '../../assets/images/shoes/shoes02.png'
 import shoesImg3 from '../../assets/images/shoes/shoes03.png'
 import shoesImg4 from '../../assets/images/shoes/shoes04.png'
 import shoesImg5 from '../../assets/images/shoes/shoes05.png'
+import shoesImg6 from '../../assets/images/shoes/shoes06.png'
+import shoesImg7 from '../../assets/images/shoes/shoes07.png'
+import shoesImg8 from '../../assets/images/shoes/shoes08.png'
+import shoesImg9 from '../../assets/images/shoes/shoes09.png'
+import shoesImg10 from '../../assets/images/shoes/shoes10.png'
+import shoesImg11 from '../../assets/images/shoes/shoes11.png'
+import shoesImg12 from '../../assets/images/shoes/shoes12.png'
 
 import features1 from '../../assets/images/features/thumb01.png'
 import features2 from '../../assets/images/features/thumb02.png'
@@ -372,6 +388,10 @@ export const avatarData = [
             {
                 thumb: mouth20,
                 full: mouthImg20
+            },
+            {
+                thumb: mouth21,
+                full: mouthImg21
             }
         ]
     },
@@ -496,6 +516,34 @@ export const avatarData = [
             {
                 thumb: shoes5,
                 full: shoesImg5
+            },
+            {
+                thumb: shoes6,
+                full: shoesImg6
+            },
+            {
+                thumb: shoes7,
+                full: shoesImg7
+            },
+            {
+                thumb: shoes8,
+                full: shoesImg8
+            },
+            {
+                thumb: shoes9,
+                full: shoesImg9
+            },
+            {
+                thumb: shoes10,
+                full: shoesImg10
+            },
+            {
+                thumb: shoes11,
+                full: shoesImg11
+            },
+            {
+                thumb: shoes12,
+                full: shoesImg12
             }
         ]
     },
