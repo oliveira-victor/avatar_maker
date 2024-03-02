@@ -187,8 +187,12 @@ import featuresImg5 from '../../assets/images/features/features05.png'
 import featuresImg6 from '../../assets/images/features/features06.png'
 
 import extra1 from '../../assets/images/extra/thumb01.png'
+import extra2 from '../../assets/images/extra/thumb02.png'
+import extra3 from '../../assets/images/extra/thumb03.png'
 
 import extraImg1 from '../../assets/images/extra/extra01.gif'
+import extraImg2 from '../../assets/images/extra/extra02.gif'
+import extraImg3 from '../../assets/images/extra/extra03.gif'
 
 import bg1 from '../../assets/images/background/thumb01.jpg'
 import bg2 from '../../assets/images/background/thumb02.jpg'
@@ -616,6 +620,14 @@ export const avatarData = [
             {
                 thumb: extra1,
                 full: extraImg1
+            },
+            {
+                thumb: extra2,
+                full: extraImg2
+            },
+            {
+                thumb: extra3,
+                full: extraImg3
             }
         ]
     },
