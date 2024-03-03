@@ -21,7 +21,7 @@ const ModalWindow = ({ closeModal }: Props) => {
                 </p>
                 <br />
                 <p>
-                    If you want to see more art by the artist, you can check <a href="https://vfostudio.vercel.app/" target='_blank'>VFO Studio</a> page, or follow <a href="https://instagram.com/vfo.studio" target='_blank'>@vfo.studio</a> on Instagram.
+                    If you want to see more art by the artist, you can check <a href="https://vfostudio.vercel.app/" target='_blank'>VFO Studio</a> page, or follow @<a href="https://instagram.com/vfo.studio" target='_blank'>vfo.studio</a> on Instagram.
                 </p>
                 <br />
                 <p>
@@ -29,7 +29,7 @@ const ModalWindow = ({ closeModal }: Props) => {
                 </p>
                 <br />
                 <p>
-                    Although this is a free app, you can always donate any amount to show support, if you feel like:
+                    Although this is a free app, you can always donate any amount to show support, if you feel like. That will help me keep motivated and creative to develop more projects.
                 </p>
                 <S.DonateContainer>
                     <a href='https://www.paypal.com/donate/?business=SJF8WGT3UNRYN&no_recurring=0&item_name=Obrigado+por+considerar+doar+qualquer+quantia%21+Isso+%C3%A9+um+grande+incentivo+para+que+eu+continue+sendo+criativo.&currency_code=BRL' target='_blank'>
