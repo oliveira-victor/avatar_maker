@@ -20,14 +20,15 @@ export const TopBar = styled.nav`
     padding: 10px 20px;
     background-color: ${(props) => props.theme.cardBg};
     display: flex;
+    flex-wrap: wrap;
     gap: 10px;
     transition: all .3s ease;
+    align-items: center;
 
     input {
         background-color: ${(props) => props.theme.cardBg};
         color: ${(props) => props.theme.mainTxt};
-        max-width: 300px;
-        width: 100%;
+        width: 300px;
         height: 36px;
         border-radius: 16px;
         border: 2px solid ${(props) => props.theme.border};
@@ -63,4 +64,15 @@ export const ToggleBtn = styled.div`
         height: 22px;
         transition: all .3s ease;
     }
+`
+
+export const AboutBtn = styled.button`
+    background-color: ${(props) => props.theme.mainTxt};
+    color: ${(props) => props.theme.cardBg};
+    font-size: 20px;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 50%;
 `

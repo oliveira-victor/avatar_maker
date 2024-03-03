@@ -10,13 +10,14 @@ import * as S from './styles'
 import sunIcon from '../../assets/images/sun-icon.svg'
 import moonIcon from '../../assets/images/moon-icon.svg'
 import Shuffle from '../../components/Shuffle/Shuffle'
+import ModalWindow from '../../components/ModalWindow'
 
 type Props = {
     switchTheme: () => void
     themeIsDark: boolean
 }
 
-const SideB = ({switchTheme, themeIsDark}: Props) => {
+const SideB = ({ switchTheme, themeIsDark }: Props) => {
 
     const dispatch = useDispatch()
 
@@ -30,8 +31,20 @@ const SideB = ({switchTheme, themeIsDark}: Props) => {
         setNewName(event.target.value)
     }
 
+    const [modalIsOpen, setModalIsOpen] = useState(false)
+
+    const closeModal = () => {
+        setModalIsOpen(false)
+    }
+
+
     return (
         <S.ContainerB id="customScrollbar">
+
+            {modalIsOpen && (
+                <ModalWindow closeModal={closeModal} />
+            )}
+
             <S.TopBar>
                 <input value={newName} onChange={handleInputChange} type="text" name="name" id="name" placeholder="Character's name" />
                 <S.ToggleBtn onClick={switchTheme}>
@@ -51,6 +64,9 @@ const SideB = ({switchTheme, themeIsDark}: Props) => {
                     />
                 </S.ToggleBtn>
                 <Shuffle themeIsDark={themeIsDark} />
+                <S.AboutBtn onClick={() => setModalIsOpen(true)}>
+                    ?
+                </S.AboutBtn>
             </S.TopBar>
             <ul>
                 {avatarData.map((item) => (

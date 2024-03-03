@@ -198,11 +198,13 @@ import bg1 from '../../assets/images/background/thumb01.jpg'
 import bg2 from '../../assets/images/background/thumb02.jpg'
 import bg3 from '../../assets/images/background/thumb03.jpg'
 import bg4 from '../../assets/images/background/thumb04.jpg'
+import bg5 from '../../assets/images/background/thumb05.jpg'
 
 import bgImg1 from '../../assets/images/background/background01.jpg'
 import bgImg2 from '../../assets/images/background/background02.jpg'
 import bgImg3 from '../../assets/images/background/background03.jpg'
 import bgImg4 from '../../assets/images/background/background04.jpg'
+import bgImg5 from '../../assets/images/background/background05.jpg'
 
 export const avatarData = [
     {
@@ -654,6 +656,10 @@ export const avatarData = [
             {
                 thumb: bg4,
                 full: bgImg4
+            },
+            {
+                thumb: bg5,
+                full: bgImg5
             }
         ]
     }

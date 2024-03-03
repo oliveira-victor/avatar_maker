@@ -38,6 +38,14 @@ export const FooterContent = styled.div`
     span {
         white-space: nowrap;
     }
+
+    .aboutLink {
+        cursor: pointer;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
 `
 
 export const footerLogos = styled.div`
