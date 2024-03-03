@@ -137,6 +137,8 @@ import bottom4 from '../../assets/images/bottom/thumb04.png'
 import bottom5 from '../../assets/images/bottom/thumb05.png'
 import bottom6 from '../../assets/images/bottom/thumb06.png'
 import bottom7 from '../../assets/images/bottom/thumb07.png'
+import bottom8 from '../../assets/images/bottom/thumb08.png'
+import bottom9 from '../../assets/images/bottom/thumb09.png'
 
 import bottomImg1 from '../../assets/images/bottom/bottom01.png'
 import bottomImg2 from '../../assets/images/bottom/bottom02.png'
@@ -145,6 +147,8 @@ import bottomImg4 from '../../assets/images/bottom/bottom04.png'
 import bottomImg5 from '../../assets/images/bottom/bottom05.png'
 import bottomImg6 from '../../assets/images/bottom/bottom06.png'
 import bottomImg7 from '../../assets/images/bottom/bottom07.png'
+import bottomImg8 from '../../assets/images/bottom/bottom08.png'
+import bottomImg9 from '../../assets/images/bottom/bottom09.png'
 
 import shoes1 from '../../assets/images/shoes/thumb01.png'
 import shoes2 from '../../assets/images/shoes/thumb02.png'
@@ -516,6 +520,14 @@ export const avatarData = [
             {
                 thumb: bottom7,
                 full: bottomImg7
+            },
+            {
+                thumb: bottom8,
+                full: bottomImg8
+            },
+            {
+                thumb: bottom9,
+                full: bottomImg9
             }
         ]
     },
