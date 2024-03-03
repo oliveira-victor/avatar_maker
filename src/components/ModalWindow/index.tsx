@@ -16,6 +16,7 @@ const ModalWindow = ({ closeModal }: Props) => {
                     <h2>About Avatar Maker</h2>
                     <img onClick={closeModal} className='closeBtn' src={closeBtn} alt="Close button" />
                 </div>
+                <span className='version'>Version 1.5</span>
                 <p>
                     Avatar Maker is a free web app designed and developed by <strong>Victor Freire Oliveira, for personal use only</strong>. All the art included was made by the same developer and is available for download and use under the <strong>Creative Commons Licence</strong>.
                 </p>

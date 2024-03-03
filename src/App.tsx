@@ -1,14 +1,19 @@
+import { useRef, useState } from 'react'
+import { Provider } from 'react-redux'
 import { ThemeProvider } from 'styled-components'
-import GlobalStyle, { MainContainer, Wrapper } from './styles'
+import html2canvas from 'html2canvas';
+import { saveAs } from 'file-saver';
+
+import { store } from './store'
 import Header from "./containers/Header"
 import SideA from './containers/SideA'
 import SideB from './containers/SideB'
 import Footer from './containers/Footer'
-import { Provider } from 'react-redux'
-import { store } from './store'
+
 import lightTheme from './themes/light'
-import { useState } from 'react'
 import darkTheme from './themes/dark'
+
+import GlobalStyle, { MainContainer, Wrapper } from './styles'
 
 function App() {
 
@@ -18,14 +23,33 @@ function App() {
     setThemeIsDark(!themeIsDark)
   }
 
+  const ref = useRef<HTMLDivElement>(null);
+
+  const handleCapture = async () => {
+    if (ref.current) {
+      try {
+        const canvas = await html2canvas(ref.current, {
+          backgroundColor: 'transparent', // Set the background color to transparent
+        });
+        canvas.toBlob((blob: Blob | null) => {
+          if (blob) {
+            saveAs(blob, 'My_Avatar_(by-VFO-Studio).png');
+          }
+        });
+      } catch (error) {
+        console.error('Error capturing content:', error);
+      }
+    }
+  };
+
   return (
     <Provider store={store}>
       <ThemeProvider theme={themeIsDark ? darkTheme : lightTheme}>
         <GlobalStyle />
         <Wrapper>
-          <Header themeIsDark={themeIsDark} />
+          <Header themeIsDark={themeIsDark} handleCapture={handleCapture} />
           <MainContainer>
-            <SideA />
+            <SideA captureContentRef={ref} />
             <SideB switchTheme={switchTheme} themeIsDark={themeIsDark} />
           </MainContainer>
           <Footer />

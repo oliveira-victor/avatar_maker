@@ -33,11 +33,13 @@ export const AvatarContainer = styled.div`
         height: 60px;
         position: absolute;
         bottom: 0;
+        margin-bottom: 6px;
         font-family: "Tangerine", cursive;
         font-weight: bold;
 
         @media (max-width: 400px) {
             font-size: 40px;
+            margin-bottom: 0;
             transform: translateY(10px);
         }
     }

@@ -8,9 +8,10 @@ import downloadBtn from '../../assets/images/downloadBtn.svg'
 
 type Props = {
     themeIsDark: boolean
+    handleCapture: () => void
 }
 
-const Header = ({ themeIsDark }: Props) => {
+const Header = ({ themeIsDark, handleCapture }: Props) => {
 
     const [modalIsOpen, setModalIsOpen] = useState(false)
 
@@ -20,7 +21,7 @@ const Header = ({ themeIsDark }: Props) => {
 
     const handleSave = () => {
         setModalIsOpen(true)
-        console.log('Save!')
+        handleCapture()
     }
 
     return (

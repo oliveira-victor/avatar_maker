@@ -10,15 +10,20 @@ import eyes from '../../assets/images/eyes/eyes01.png'
 import mouth from '../../assets/images/mouth/mouth01.png'
 import top from '../../assets/images/top/top01.png'
 import frame from '../../assets/images/frame.png'
+import { RefObject } from 'react'
 
-const SideA = () => {
+type Props = {
+    captureContentRef: RefObject<HTMLDivElement>
+}
+
+const SideA = ({ captureContentRef }: Props) => {
 
     const charName = useSelector((state: RootReducer) => state.setName.charName)
     const charParts = useSelector((state: RootReducer) => state.setCharLayer.avatarLayers)
 
     return (
         <S.ContainerA>
-            <S.AvatarContainer style={{backgroundImage: charParts.background === '' || charParts.background.includes("backgroundEmpty") ? '' : `url(${charParts.background})`}}>
+            <S.AvatarContainer ref={captureContentRef} style={{backgroundImage: charParts.background === '' || charParts.background.includes("backgroundEmpty") ? '' : `url(${charParts.background})`}}>
                 {charParts.background === '' || charParts.background.includes("backgroundEmpty") ? '' : <img className='frame' src={frame} alt="Image frame" />}
                 <div className='avatarName'>
                     {charName}

@@ -28,7 +28,8 @@ export const TopBar = styled.nav`
     input {
         background-color: ${(props) => props.theme.cardBg};
         color: ${(props) => props.theme.mainTxt};
-        width: 300px;
+        width: 50%;
+        min-width: 154px;
         height: 36px;
         border-radius: 16px;
         border: 2px solid ${(props) => props.theme.border};

@@ -65,7 +65,7 @@ export const MainContainer = styled.main`
     margin: 0 auto;
     padding-top: 80px;
     display: grid;
-    grid-template-columns: 500px auto;
+    grid-template-columns: 60% auto;
     height: 100vh;
 
     @media (max-width: ${screenSize.phone}) {

@@ -38,12 +38,18 @@ export const ModalContaienr = styled.div`
         display: flex;
         justify-content: space-between;
         align-items: center;
-        margin-bottom: 20px;
 
             .closeBtn {
-            height: 20px;
-            cursor: pointer;
-        }
+                height: 20px;
+                cursor: pointer;
+            }
+    }
+
+    .version {
+        display: block;
+        font-size: 14px;
+        font-weight: lighter;
+        margin-bottom: 20px;
     }
 `
 

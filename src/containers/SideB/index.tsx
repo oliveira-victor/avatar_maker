@@ -46,7 +46,15 @@ const SideB = ({ switchTheme, themeIsDark }: Props) => {
             )}
 
             <S.TopBar>
-                <input value={newName} onChange={handleInputChange} type="text" name="name" id="name" placeholder="Character's name" />
+                <input 
+                    value={newName} 
+                    onChange={handleInputChange} 
+                    type="text" 
+                    name="name" 
+                    id="name" 
+                    placeholder="Character's name" 
+                    maxLength={26}
+                />
                 <S.ToggleBtn onClick={switchTheme}>
                     <img
                         className={themeIsDark ? '' : 'activateIcon'}
