@@ -21,7 +21,11 @@ const ModalWindow = ({ closeModal }: Props) => {
                 </p>
                 <br />
                 <p>
-                    If you want to see more art by the artist, you can check <a href="https://vfostudio.vercel.app/" target='_blank'>VFO Studio</a> page.
+                    If you want to see more art by the artist, you can check <a href="https://vfostudio.vercel.app/" target='_blank'>VFO Studio</a> page, or follow <a href="https://instagram.com/vfo.studio" target='_blank'>@vfo.studio</a> on Instagram.
+                </p>
+                <br />
+                <p>
+                    If you need to contact me, report a bug or hire my services, reach me at: <a href="mailto:dev.victor.fo@gmail.com">dev.victor.fo@gmail.com</a>
                 </p>
                 <br />
                 <p>
