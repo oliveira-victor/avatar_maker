@@ -109,6 +109,14 @@ import hair8 from '../../assets/images/hair/thumb08.png'
 import hair9 from '../../assets/images/hair/thumb09.png'
 import hair10 from '../../assets/images/hair/thumb10.png'
 import hair11 from '../../assets/images/hair/thumb11.png'
+import hair12 from '../../assets/images/hair/thumb12.png'
+import hair13 from '../../assets/images/hair/thumb13.png'
+import hair14 from '../../assets/images/hair/thumb14.png'
+import hair15 from '../../assets/images/hair/thumb15.png'
+import hair16 from '../../assets/images/hair/thumb16.png'
+import hair17 from '../../assets/images/hair/thumb17.png'
+import hair18 from '../../assets/images/hair/thumb18.png'
+import hair19 from '../../assets/images/hair/thumb19.png'
 
 import hairImg1 from '../../assets/images/hair/hair01.png'
 import hairImg2 from '../../assets/images/hair/hair02.png'
@@ -121,6 +129,14 @@ import hairImg8 from '../../assets/images/hair/hair08.png'
 import hairImg9 from '../../assets/images/hair/hair09.png'
 import hairImg10 from '../../assets/images/hair/hair10.png'
 import hairImg11 from '../../assets/images/hair/hair11.png'
+import hairImg12 from '../../assets/images/hair/hair12.png'
+import hairImg13 from '../../assets/images/hair/hair13.png'
+import hairImg14 from '../../assets/images/hair/hair14.png'
+import hairImg15 from '../../assets/images/hair/hair15.png'
+import hairImg16 from '../../assets/images/hair/hair16.png'
+import hairImg17 from '../../assets/images/hair/hair17.png'
+import hairImg18 from '../../assets/images/hair/hair18.png'
+import hairImg19 from '../../assets/images/hair/hair19.png'
 
 import top1 from '../../assets/images/top/thumb01.png'
 import top2 from '../../assets/images/top/thumb02.png'
@@ -470,6 +486,38 @@ export const avatarData = [
             {
                 thumb: hair11,
                 full: hairImg11
+            },
+            {
+                thumb: hair12,
+                full: hairImg12
+            },
+            {
+                thumb: hair13,
+                full: hairImg13
+            },
+            {
+                thumb: hair14,
+                full: hairImg14
+            },
+            {
+                thumb: hair15,
+                full: hairImg15
+            },
+            {
+                thumb: hair16,
+                full: hairImg16
+            },
+            {
+                thumb: hair17,
+                full: hairImg17
+            },
+            {
+                thumb: hair18,
+                full: hairImg18
+            },
+            {
+                thumb: hair19,
+                full: hairImg19
             }
         ]
     },

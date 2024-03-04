@@ -25,6 +25,11 @@ export const AvatarContainer = styled.div`
     align-items: center;
     background-size: cover;
 
+    .vfo {
+        width: 100%;
+        position: absolute;
+    }
+
     .avatarName {
         color: ${(props) => props.theme.mainTxt};
         text-align: center;

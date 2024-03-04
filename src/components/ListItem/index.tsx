@@ -46,7 +46,7 @@ const ListItem = ({ id, title, image }: Props) => {
         }
 
         if (title === 'Shoes') {
-            return '#488a34'
+            return '#8c98bb'
         }
 
         if (title === 'Features') {
@@ -54,7 +54,7 @@ const ListItem = ({ id, title, image }: Props) => {
         }
 
         if (title === 'Extra') {
-            return '#7a9477'
+            return '#9ad67e'
         }
     }
 

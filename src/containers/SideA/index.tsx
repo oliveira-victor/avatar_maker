@@ -1,5 +1,6 @@
 import { useSelector } from 'react-redux'
 import { RootReducer } from '../../store'
+import { RefObject } from 'react'
 
 import * as S from './styles'
 
@@ -10,7 +11,7 @@ import eyes from '../../assets/images/eyes/eyes01.png'
 import mouth from '../../assets/images/mouth/mouth01.png'
 import top from '../../assets/images/top/top01.png'
 import frame from '../../assets/images/frame.png'
-import { RefObject } from 'react'
+import vfo from '../../assets/images/vfo.png'
 
 type Props = {
     captureContentRef: RefObject<HTMLDivElement>
@@ -28,6 +29,7 @@ const SideA = ({ captureContentRef }: Props) => {
                 <div className='avatarName'>
                     {charName}
                 </div>
+                <img className='vfo' src={vfo} alt="Victor's signature" />
                 <S.ImagesContainer className='float'>
                     <img className='absoluteIgm' src={body} alt="Avatar body image" />
                     <img src={empty} alt="Just an empty image" />
