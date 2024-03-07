@@ -13,6 +13,7 @@ export const Header = styled.header`
     position: absolute;
     width: 100%;
     transition: all .3s ease;
+    z-index: 3;
 `
 
 export const SaveBtn = styled.button`
