@@ -13,6 +13,8 @@ export const ContainerA = styled.div`
 `
 
 export const AvatarContainer = styled.div`
+    /* max-width: 510px;
+    max-width: 510px; */
     border-radius: 20px;
     max-width: 450px;
     width: 100%;

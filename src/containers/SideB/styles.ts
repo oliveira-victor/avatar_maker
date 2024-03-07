@@ -3,6 +3,7 @@ import { screenSize } from "../../styles/screenSize";
 
 export const ContainerB = styled.div`
     overflow-y: scroll;
+    position: relative;
 
     @media (max-width: ${screenSize.phone}) {
         overflow-y: hidden;
@@ -24,6 +25,10 @@ export const TopBar = styled.nav`
     gap: 10px;
     transition: all .3s ease;
     align-items: center;
+    position: sticky;
+    width: 100%;
+    top: 0;
+    left: 0;
 
     input {
         background-color: ${(props) => props.theme.cardBg};
