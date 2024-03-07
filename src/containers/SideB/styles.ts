@@ -29,6 +29,7 @@ export const TopBar = styled.nav`
     width: 100%;
     top: 0;
     left: 0;
+    z-index: 2;
 
     input {
         background-color: ${(props) => props.theme.cardBg};
