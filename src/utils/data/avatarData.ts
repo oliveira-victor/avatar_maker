@@ -174,6 +174,11 @@ import top3 from '../../assets/images/top/thumb03.png'
 import top4 from '../../assets/images/top/thumb04.png'
 import top5 from '../../assets/images/top/thumb05.png'
 import top6 from '../../assets/images/top/thumb06.png'
+import top7 from '../../assets/images/top/thumb07.png'
+import top8 from '../../assets/images/top/thumb08.png'
+import top9 from '../../assets/images/top/thumb09.png'
+import top10 from '../../assets/images/top/thumb10.png'
+import top11 from '../../assets/images/top/thumb11.png'
 
 import topImg1 from '../../assets/images/top/top01.png'
 import topImg2 from '../../assets/images/top/top02.png'
@@ -181,6 +186,11 @@ import topImg3 from '../../assets/images/top/top03.png'
 import topImg4 from '../../assets/images/top/top04.png'
 import topImg5 from '../../assets/images/top/top05.png'
 import topImg6 from '../../assets/images/top/top06.png'
+import topImg7 from '../../assets/images/top/top07.png'
+import topImg8 from '../../assets/images/top/top08.png'
+import topImg9 from '../../assets/images/top/top09.png'
+import topImg10 from '../../assets/images/top/top10.png'
+import topImg11 from '../../assets/images/top/top11.png'
 
 import bottom1 from '../../assets/images/bottom/thumb01.png'
 import bottom2 from '../../assets/images/bottom/thumb02.png'
@@ -638,6 +648,26 @@ export const avatarData = [
             {
                 thumb: top6,
                 full: topImg6
+            },
+            {
+                thumb: top7,
+                full: topImg7
+            },
+            {
+                thumb: top8,
+                full: topImg8
+            },
+            {
+                thumb: top9,
+                full: topImg9
+            },
+            {
+                thumb: top10,
+                full: topImg10
+            },
+            {
+                thumb: top11,
+                full: topImg11
             }
         ]
     },
