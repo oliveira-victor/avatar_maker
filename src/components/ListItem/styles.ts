@@ -1,6 +1,10 @@
 import styled from "styled-components";
 import { screenSize } from "../../styles/screenSize";
 
+type Props = {
+    themeIsDark: boolean
+}
+
 export const ListItem = styled.div`
     background-color: ${(props) => props.theme.cardBg};
     color: ${(props) => props.theme.mainTxt};
@@ -42,12 +46,22 @@ export const ItemTitle = styled.li`
     }
 `
 
-export const ThumbsList = styled.div`
+export const ThumbsList = styled.div<Props>`
     padding: 10px 4px 6px 4px;
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
     border-top: 2px solid ${(props) => props.theme.border};
+
+    .thumbSelected {
+        transform: scale(1.1);
+        box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
+        border: 2px solid ${(props) => props.themeIsDark ? '#fff' : '#000'};
+
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
 
     img {
         cursor: pointer;
@@ -55,7 +69,7 @@ export const ThumbsList = styled.div`
         height: 50px;
         object-fit: cover;
         border-radius: 10px;
-        transition: all .5s ease;
+        transition: all .2s ease;
 
         &:hover {
             transform: translateY(-2px);

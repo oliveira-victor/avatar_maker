@@ -62,13 +62,13 @@ const ListItem = ({ id, title, image, themeIsDark }: Props) => {
         }
     }
 
-    const getBorder = (item: string) => {
+    const setThumbStyle = (item: string) => {
         const isLayerPresent = Object.values(charParts).includes(item)
 
         if (isLayerPresent === true) {
-            return `2px solid ${themeIsDark ? '#fff' : '#000'}`
+            return `thumbSelected`
         }
-        return '2px solid transparent'
+        return ''
     }
 
     return (
@@ -78,13 +78,14 @@ const ListItem = ({ id, title, image, themeIsDark }: Props) => {
                 <img className={cardExpand ? '' : 'rotate'} src={arrow} alt="Arrow icon" />
             </S.ItemTitle>
             {cardExpand && (
-                <S.ThumbsList>
+                <S.ThumbsList themeIsDark={themeIsDark}>
                     {image.map((img) => (
                         <img 
                             key={img.thumb} 
                             src={img.thumb} 
                             alt={`Thumbnail for ${title}`} 
-                            style={{backgroundColor: `${getBgColor(title)}`, border: `${getBorder(img.full)}`}}
+                            className={setThumbStyle(img.full)}
+                            style={{backgroundColor: `${getBgColor(title)}`}}
                             onClick={() => dispatch(setCharLayer(img.full))}
                         />
                     ))}
