@@ -84,6 +84,7 @@ const SideB = ({ switchTheme, themeIsDark, getFileName }: Props) => {
                         id={item.id}
                         title={item.title}
                         image={item.image}
+                        themeIsDark={themeIsDark}
                     />
                 ))}
             </ul>

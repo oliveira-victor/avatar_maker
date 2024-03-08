@@ -1,11 +1,12 @@
 import { useState } from 'react'
-import { useDispatch } from 'react-redux'
+import { useDispatch, useSelector } from 'react-redux'
 
 import { setCharLayer } from '../../store/reducers/avatarLayers'
 
 import * as S from './styles'
 
 import arrow from '../../assets/images/arrow.svg'
+import { RootReducer } from '../../store'
 
 type Imgs = {
     thumb: string
@@ -16,13 +17,16 @@ type Props = {
     id: number
     title: string
     image: Imgs[]
+    themeIsDark: boolean
 }
 
-const ListItem = ({ id, title, image }: Props) => {
+const ListItem = ({ id, title, image, themeIsDark }: Props) => {
 
     const [cardExpand, setCardExpand] = useState(true)
 
     const dispatch = useDispatch()
+
+    const charParts = useSelector((state: RootReducer) => state.setCharLayer.avatarLayers)
 
     const getBgColor = (title: string) => {
         if (title === 'Eyes') {
@@ -58,6 +62,15 @@ const ListItem = ({ id, title, image }: Props) => {
         }
     }
 
+    const getBorder = (item: string) => {
+        const isLayerPresent = Object.values(charParts).includes(item)
+
+        if (isLayerPresent === true) {
+            return `2px solid ${themeIsDark ? '#fff' : '#000'}`
+        }
+        return '2px solid transparent'
+    }
+
     return (
         <S.ListItem key={id}>
             <S.ItemTitle onClick={() => setCardExpand(!cardExpand)}>
@@ -71,7 +84,7 @@ const ListItem = ({ id, title, image }: Props) => {
                             key={img.thumb} 
                             src={img.thumb} 
                             alt={`Thumbnail for ${title}`} 
-                            style={{backgroundColor: `${getBgColor(title)}`}}
+                            style={{backgroundColor: `${getBgColor(title)}`, border: `${getBorder(img.full)}`}}
                             onClick={() => dispatch(setCharLayer(img.full))}
                         />
                     ))}

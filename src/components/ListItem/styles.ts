@@ -55,7 +55,7 @@ export const ThumbsList = styled.div`
         height: 50px;
         object-fit: cover;
         border-radius: 10px;
-        transition: all .2s ease;
+        transition: all .5s ease;
 
         &:hover {
             transform: translateY(-2px);
