@@ -15,9 +15,10 @@ import ModalWindow from '../../components/ModalWindow'
 type Props = {
     switchTheme: () => void
     themeIsDark: boolean
+    getFileName: (data: string) => void
 }
 
-const SideB = ({ switchTheme, themeIsDark }: Props) => {
+const SideB = ({ switchTheme, themeIsDark, getFileName }: Props) => {
 
     const dispatch = useDispatch()
 
@@ -29,6 +30,7 @@ const SideB = ({ switchTheme, themeIsDark }: Props) => {
 
     const handleInputChange = (event: ChangeEvent<HTMLInputElement>) => {
         setNewName(event.target.value)
+        getFileName(event.target.value)
     }
 
     const [modalIsOpen, setModalIsOpen] = useState(false)

@@ -18,6 +18,11 @@ import GlobalStyle, { MainContainer, Wrapper } from './styles'
 function App() {
 
   const [themeIsDark, setThemeIsDark] = useState(false)
+  const [fileName, setFileName] = useState<string>('My_Avatar')
+
+  const getFileName = (data: string) => {
+    data === '' ? setFileName('My_Avatar') : setFileName(data)
+  }
 
   function switchTheme() {
     setThemeIsDark(!themeIsDark)
@@ -33,7 +38,7 @@ function App() {
         });
         canvas.toBlob((blob: Blob | null) => {
           if (blob) {
-            saveAs(blob, 'My_Avatar_(by-VFO-Studio).png');
+            saveAs(blob, `${fileName} (by VFO Studio)`);
           }
         });
       } catch (error) {
@@ -50,7 +55,7 @@ function App() {
           <Header themeIsDark={themeIsDark} handleCapture={handleCapture} />
           <MainContainer>
             <SideA captureContentRef={ref} />
-            <SideB switchTheme={switchTheme} themeIsDark={themeIsDark} />
+            <SideB switchTheme={switchTheme} themeIsDark={themeIsDark} getFileName={getFileName} />
           </MainContainer>
           <Footer />
         </Wrapper>
