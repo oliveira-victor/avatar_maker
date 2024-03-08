@@ -54,6 +54,7 @@ const GlobalStyle = createGlobalStyle`
 
 export const Wrapper = styled.div`
     max-width: 1920px;
+    position: relative;
     margin: 0 auto;
     background-color: ${(props) => props.theme.bodyBg};
     min-height: 100vh;
