@@ -34,10 +34,10 @@ const SideA = ({ captureContentRef }: Props) => {
                     <img className='absoluteIgm' src={body} alt="Avatar body image" />
                     <img src={empty} alt="Just an empty image" />
                     <img className='absoluteIgm' src={charParts.skin === '' ? skin : charParts.skin} alt="Character's skin" />
-                    {charParts.features === '' || charParts.features.includes("featuresEmpty") ? '' : <img className='absoluteIgm' src={charParts.features} alt="Character's feature" />}
-                    <img className='absoluteIgm' src={charParts.eyes === '' ? eyes : charParts.eyes} alt="Character's eyes" />
                     <img className='absoluteIgm' src={charParts.mouth === '' ? mouth : charParts.mouth} alt="Character's mouth" />
                     {charParts.hair === '' || charParts.hair.includes("hairEmpty") ? '' : <img className='absoluteIgm' src={charParts.hair} alt="Character's hair" />}
+                    {charParts.features === '' || charParts.features.includes("featuresEmpty") ? '' : <img className='absoluteIgm' src={charParts.features} alt="Character's feature" />}
+                    <img className='absoluteIgm' src={charParts.eyes === '' ? eyes : charParts.eyes} alt="Character's eyes" />
                     {charParts.shoes === '' || charParts.shoes.includes("shoesEmpty") ? '' : <img className='absoluteIgm' src={charParts.shoes} alt="Character's shoes" />}
                     {charParts.bottom === '' || charParts.bottom.includes("bottomEmpty") ? '' : <img className='absoluteIgm' src={charParts.bottom} alt="Character's bottom" />}
                     <img className='absoluteIgm' src={charParts.top === '' ? top : charParts.top} alt="Character's shirt" />
