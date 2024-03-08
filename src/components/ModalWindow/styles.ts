@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { screenSize } from "../../styles/screenSize";
 
 export const Modal = styled.div`
     width: 100%;
@@ -23,12 +24,17 @@ export const ModalContaienr = styled.div`
     color: ${(props) => props.theme.mainTxt};
     position: relative;
     max-width: 1024px;
+    max-height: 90vh;
     width: 90%;
     border-radius: 20px;
     border: 2px solid ${(props) => props.theme.border};
     padding: 20px;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
     z-index: 2;
+    
+    @media (max-width: ${screenSize.phone}) {
+        overflow-y: scroll;
+    }
 
     a {
         color: ${(props) => props.theme.mainTxt};
@@ -54,17 +60,22 @@ export const ModalContaienr = styled.div`
 `
 
 export const DonateContainer = styled.div`
-    display: flex;
-    gap: 10px;
-    justify-content: center;
+    text-align: center;
     margin-top: 20px;
 
-    button {
-        background-color: ${(props) => props.theme.mainTxt};
-        color: ${(props) => props.theme.cardBg};
-        border: none;
-        cursor: pointer;
-        padding: 10px 20px;
-        border-radius: 10px;
+    div {
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        margin-top: 10px;
+
+            button {
+                background-color: ${(props) => props.theme.mainTxt};
+                color: ${(props) => props.theme.cardBg};
+                border: none;
+                cursor: pointer;
+                padding: 10px 20px;
+                border-radius: 10px;
+            }
     }
 `

@@ -29,20 +29,23 @@ const ModalWindow = ({ closeModal }: Props) => {
                     If you need to contact me, report a bug or hire my services, reach me at: <a href="mailto:dev.victor.fo@gmail.com">dev.victor.fo@gmail.com</a>
                 </p>
                 <br />
+                <h3>How to support the artist/developer?</h3>
                 <p>
-                    Although this is a free app, you can always donate any amount to show support, if you feel like. That will help me keep motivated and creative to develop more projects.
+                    Although this is a free app, you can always donate any amount to show support, if you feel like. That will help me keep motivated and creative to develop more projects. Alternatively, you can follow @<a href="https://instagram.com/vfo.studio" target='_blank'>vfo.studio</a> on Instagram.
                 </p>
                 <S.DonateContainer>
-                    <a href='https://www.paypal.com/donate/?business=SJF8WGT3UNRYN&no_recurring=0&item_name=Obrigado+por+considerar+doar+qualquer+quantia%21+Isso+%C3%A9+um+grande+incentivo+para+que+eu+continue+sendo+criativo.&currency_code=BRL' target='_blank'>
-                        <button>BRL</button>
-                    </a>
-                    <a href="https://www.paypal.com/donate/?business=SJF8WGT3UNRYN&no_recurring=0&item_name=Thank+you+for+considering+donating+any+amount%21+That+is+a+huge+encouragement+to+keep+going.&currency_code=USD" target='_blank'>
-                        <button>USD</button>
-                    </a>
-                    <a href="https://www.paypal.com/donate/?business=SJF8WGT3UNRYN&no_recurring=0&item_name=Thank+you+for+considering+donating+any+amount%21+That+is+a+huge+encouragement+to+keep+going.&currency_code=EUR" target='_blank'>
-                        <button>EUR</button>
-                    </a>
-
+                    <span>Donate in:</span>
+                    <div>
+                        <a href='https://www.paypal.com/donate/?business=SJF8WGT3UNRYN&no_recurring=0&item_name=Obrigado+por+considerar+doar+qualquer+quantia%21+Isso+%C3%A9+um+grande+incentivo+para+que+eu+continue+sendo+criativo.&currency_code=BRL' target='_blank'>
+                            <button>BRL</button>
+                        </a>
+                        <a href="https://www.paypal.com/donate/?business=SJF8WGT3UNRYN&no_recurring=0&item_name=Thank+you+for+considering+donating+any+amount%21+That+is+a+huge+encouragement+to+keep+going.&currency_code=USD" target='_blank'>
+                            <button>USD</button>
+                        </a>
+                        <a href="https://www.paypal.com/donate/?business=SJF8WGT3UNRYN&no_recurring=0&item_name=Thank+you+for+considering+donating+any+amount%21+That+is+a+huge+encouragement+to+keep+going.&currency_code=EUR" target='_blank'>
+                            <button>EUR</button>
+                        </a>
+                    </div>
                 </S.DonateContainer>
             </S.ModalContaienr>
         </S.Modal>
