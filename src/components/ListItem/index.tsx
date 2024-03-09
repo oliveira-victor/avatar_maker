@@ -17,10 +17,10 @@ type Props = {
     id: number
     title: string
     image: Imgs[]
-    themeisdark: boolean
+    themeIsDark: boolean
 }
 
-const ListItem = ({ id, title, image, themeisdark }: Props) => {
+const ListItem = ({ id, title, image, themeIsDark }: Props) => {
 
     const [cardExpand, setCardExpand] = useState(true)
 
@@ -66,6 +66,10 @@ const ListItem = ({ id, title, image, themeisdark }: Props) => {
         const isLayerPresent = Object.values(charParts).includes(item)
 
         if (isLayerPresent === true) {
+            if (themeIsDark) {
+                return `thumbSelected darkThemeBorder`
+            }
+            
             return `thumbSelected`
         }
         return ''
@@ -78,7 +82,7 @@ const ListItem = ({ id, title, image, themeisdark }: Props) => {
                 <img className={cardExpand ? '' : 'rotate'} src={arrow} alt="Arrow icon" />
             </S.ItemTitle>
             {cardExpand && (
-                <S.ThumbsList themeisdark={themeisdark}>
+                <S.ThumbsList>
                     {image.map((img) => (
                         <img 
                             key={img.thumb} 

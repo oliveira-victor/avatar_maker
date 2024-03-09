@@ -9,7 +9,7 @@ import * as S from './styles'
 
 import sunIcon from '../../assets/images/sun-icon.svg'
 import moonIcon from '../../assets/images/moon-icon.svg'
-import Shuffle from '../../components/Shuffle/Shuffle'
+import Shuffle from '../../components/Shuffle'
 import ModalWindow from '../../components/ModalWindow'
 
 type Props = {
