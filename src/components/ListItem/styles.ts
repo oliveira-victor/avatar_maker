@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { screenSize } from "../../styles/screenSize";
 
 type Props = {
-    themeIsDark: boolean
+    themeisdark: boolean
 }
 
 export const ListItem = styled.div`
@@ -56,7 +56,7 @@ export const ThumbsList = styled.div<Props>`
     .thumbSelected {
         transform: scale(1.1);
         box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
-        border: 2px solid ${(props) => props.themeIsDark ? '#fff' : '#000'};
+        border: 2px solid ${(props) => props.themeisdark ? '#fff' : '#000'};
 
         &:hover {
             transform: scale(1.1);

@@ -17,10 +17,10 @@ type Props = {
     id: number
     title: string
     image: Imgs[]
-    themeIsDark: boolean
+    themeisdark: boolean
 }
 
-const ListItem = ({ id, title, image, themeIsDark }: Props) => {
+const ListItem = ({ id, title, image, themeisdark }: Props) => {
 
     const [cardExpand, setCardExpand] = useState(true)
 
@@ -78,7 +78,7 @@ const ListItem = ({ id, title, image, themeIsDark }: Props) => {
                 <img className={cardExpand ? '' : 'rotate'} src={arrow} alt="Arrow icon" />
             </S.ItemTitle>
             {cardExpand && (
-                <S.ThumbsList themeIsDark={themeIsDark}>
+                <S.ThumbsList themeisdark={themeisdark}>
                     {image.map((img) => (
                         <img 
                             key={img.thumb} 
