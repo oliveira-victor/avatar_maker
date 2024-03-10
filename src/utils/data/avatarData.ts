@@ -139,6 +139,7 @@ import hair24 from '../../assets/images/hair/thumb24.png'
 import hair25 from '../../assets/images/hair/thumb25.png'
 import hair26 from '../../assets/images/hair/thumb26.png'
 import hair27 from '../../assets/images/hair/thumb27.png'
+import hair28 from '../../assets/images/hair/thumb28.png'
 
 import hairImg1 from '../../assets/images/hair/hair01.png'
 import hairImg2 from '../../assets/images/hair/hair02.png'
@@ -167,6 +168,7 @@ import hairImg24 from '../../assets/images/hair/hair24.png'
 import hairImg25 from '../../assets/images/hair/hair25.png'
 import hairImg26 from '../../assets/images/hair/hair26.png'
 import hairImg27 from '../../assets/images/hair/hair27.png'
+import hairImg28 from '../../assets/images/hair/hair28.png'
 
 import top1 from '../../assets/images/top/thumb01.png'
 import top2 from '../../assets/images/top/thumb02.png'
@@ -265,12 +267,50 @@ import bg2 from '../../assets/images/background/thumb02.jpg'
 import bg3 from '../../assets/images/background/thumb03.jpg'
 import bg4 from '../../assets/images/background/thumb04.jpg'
 import bg5 from '../../assets/images/background/thumb05.jpg'
+import bg6 from '../../assets/images/background/thumb06.jpg'
+import bg7 from '../../assets/images/background/thumb07.jpg'
+import bg8 from '../../assets/images/background/thumb08.jpg'
+import bg9 from '../../assets/images/background/thumb09.jpg'
+import bg10 from '../../assets/images/background/thumb10.jpg'
+import bg11 from '../../assets/images/background/thumb11.jpg'
+import bg12 from '../../assets/images/background/thumb12.jpg'
+import bg13 from '../../assets/images/background/thumb13.jpg'
+import bg14 from '../../assets/images/background/thumb14.jpg'
+import bg15 from '../../assets/images/background/thumb15.jpg'
+import bg16 from '../../assets/images/background/thumb16.jpg'
+import bg17 from '../../assets/images/background/thumb17.jpg'
+import bg18 from '../../assets/images/background/thumb18.jpg'
+import bg19 from '../../assets/images/background/thumb19.jpg'
+import bg20 from '../../assets/images/background/thumb20.jpg'
+import bg21 from '../../assets/images/background/thumb21.jpg'
+import bg22 from '../../assets/images/background/thumb22.jpg'
+import bg23 from '../../assets/images/background/thumb23.jpg'
+import bg24 from '../../assets/images/background/thumb24.jpg'
 
 import bgImg1 from '../../assets/images/background/background01.jpg'
 import bgImg2 from '../../assets/images/background/background02.jpg'
 import bgImg3 from '../../assets/images/background/background03.jpg'
 import bgImg4 from '../../assets/images/background/background04.jpg'
 import bgImg5 from '../../assets/images/background/background05.jpg'
+import bgImg6 from '../../assets/images/background/background06.jpg'
+import bgImg7 from '../../assets/images/background/background07.jpg'
+import bgImg8 from '../../assets/images/background/background08.jpg'
+import bgImg9 from '../../assets/images/background/background09.jpg'
+import bgImg10 from '../../assets/images/background/background10.jpg'
+import bgImg11 from '../../assets/images/background/background11.jpg'
+import bgImg12 from '../../assets/images/background/background12.jpg'
+import bgImg13 from '../../assets/images/background/background13.jpg'
+import bgImg14 from '../../assets/images/background/background14.jpg'
+import bgImg15 from '../../assets/images/background/background15.jpg'
+import bgImg16 from '../../assets/images/background/background16.jpg'
+import bgImg17 from '../../assets/images/background/background17.jpg'
+import bgImg18 from '../../assets/images/background/background18.jpg'
+import bgImg19 from '../../assets/images/background/background19.jpg'
+import bgImg20 from '../../assets/images/background/background20.jpg'
+import bgImg21 from '../../assets/images/background/background21.jpg'
+import bgImg22 from '../../assets/images/background/background22.jpg'
+import bgImg23 from '../../assets/images/background/background23.jpg'
+import bgImg24 from '../../assets/images/background/background24.jpg'
 
 export const avatarData = [
     {
@@ -618,6 +658,10 @@ export const avatarData = [
             {
                 thumb: hair27,
                 full: hairImg27
+            },
+            {
+                thumb: hair28,
+                full: hairImg28
             }
         ]
     },
@@ -858,6 +902,82 @@ export const avatarData = [
             {
                 thumb: bg5,
                 full: bgImg5
+            },
+            {
+                thumb: bg6,
+                full: bgImg6
+            },
+            {
+                thumb: bg7,
+                full: bgImg7
+            },
+            {
+                thumb: bg8,
+                full: bgImg8
+            },
+            {
+                thumb: bg9,
+                full: bgImg9
+            },
+            {
+                thumb: bg10,
+                full: bgImg10
+            },
+            {
+                thumb: bg11,
+                full: bgImg11
+            },
+            {
+                thumb: bg12,
+                full: bgImg12
+            },
+            {
+                thumb: bg13,
+                full: bgImg13
+            },
+            {
+                thumb: bg14,
+                full: bgImg14
+            },
+            {
+                thumb: bg15,
+                full: bgImg15
+            },
+            {
+                thumb: bg16,
+                full: bgImg16
+            },
+            {
+                thumb: bg17,
+                full: bgImg17
+            },
+            {
+                thumb: bg18,
+                full: bgImg18
+            },
+            {
+                thumb: bg19,
+                full: bgImg19
+            },
+            {
+                thumb: bg20,
+                full: bgImg20
+            },
+            {
+                thumb: bg21,
+                full: bgImg21
+            },
+            {
+                thumb: bg22,
+                full: bgImg22
+            },
+            {
+                thumb: bg23,
+                full: bgImg23
+            },
+            {
+                thumb: bg24,
+                full: bgImg24
             }
         ]
     }
