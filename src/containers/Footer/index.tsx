@@ -1,12 +1,14 @@
 import { useState } from 'react'
 import { useTranslation } from 'react-i18next'
 
+import ModalWindow from '../../components/ModalWindow'
+
 import * as S from './styles'
 
 import vfoStudio from '../../assets/images/vfostudio.svg'
 import vfo from '../../assets/images/vfo_white.svg'
 import github from '../../assets/images/github.svg'
-import ModalWindow from '../../components/ModalWindow'
+import instagram from '../../assets/images/instagram.svg'
 
 const Footer = () => {
 
@@ -71,11 +73,14 @@ const Footer = () => {
                     <a href="https://victoroliveira.vercel.app/" target='_blank'>
                         <img src={vfo} alt="VFO logo" title={t('portfolioTitle')} />
                     </a>
+                    <a href="https://vfostudio.vercel.app/" target='_blank'>
+                        <img src={vfoStudio} alt="Logo VFO Studio" title={t('vfoStudioTitle')} />
+                    </a>
                     <a href="https://github.com/oliveira-victor" target='_blank'>
                         <img src={github} alt="GitHub logo" title={t('githubTitle')} />
                     </a>
-                    <a href="https://vfostudio.vercel.app/" target='_blank'>
-                        <img src={vfoStudio} alt="Logo VFO Studio" title={t('vfoStudioTitle')} />
+                    <a href="https://instagram.com/vfo.studio" target='_blank'>
+                        <img src={instagram} alt="Instagram logo" title={t('instagram')} />
                     </a>
                 </S.footerLogos>
             </S.FooterContent>
