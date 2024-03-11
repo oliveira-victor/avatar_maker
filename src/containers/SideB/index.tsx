@@ -1,16 +1,17 @@
 import { useDispatch } from 'react-redux'
 import { ChangeEvent, useEffect, useState } from 'react'
+import { useTranslation } from 'react-i18next'
 
 import ListItem from '../../components/ListItem'
 import { avatarData } from '../../utils/data/avatarData'
 import { setName } from '../../store/reducers/name'
+import ModalWindow from '../../components/ModalWindow'
+import Shuffle from '../../components/Shuffle'
 
 import * as S from './styles'
 
 import sunIcon from '../../assets/images/sun-icon.svg'
 import moonIcon from '../../assets/images/moon-icon.svg'
-import Shuffle from '../../components/Shuffle'
-import ModalWindow from '../../components/ModalWindow'
 
 type Props = {
     switchTheme: () => void
@@ -19,6 +20,8 @@ type Props = {
 }
 
 const SideB = ({ switchTheme, themeIsDark, getFileName }: Props) => {
+
+    const { t } = useTranslation()
 
     const dispatch = useDispatch()
 
@@ -54,7 +57,7 @@ const SideB = ({ switchTheme, themeIsDark, getFileName }: Props) => {
                     type="text" 
                     name="name" 
                     id="name" 
-                    placeholder="Character's name" 
+                    placeholder={t('inputPlaceholder')} 
                     maxLength={26}
                 />
                 <S.ToggleBtn onClick={switchTheme}>
@@ -63,14 +66,14 @@ const SideB = ({ switchTheme, themeIsDark, getFileName }: Props) => {
                         style={{ filter: themeIsDark ? 'invert(1)' : '' }}
                         src={sunIcon}
                         alt="Light theme icon"
-                        title='Switch theme'
+                        title={t('switchTheme')}
                     />
                     <img
                         className={themeIsDark ? 'activateIcon' : ''}
                         style={{ filter: themeIsDark ? 'invert(1)' : '' }}
                         src={moonIcon}
                         alt="Dark theme icon"
-                        title='Switch theme'
+                        title={t('switchTheme')}
                     />
                 </S.ToggleBtn>
                 <Shuffle themeIsDark={themeIsDark} />

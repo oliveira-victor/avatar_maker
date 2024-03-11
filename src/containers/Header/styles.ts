@@ -20,6 +20,7 @@ export const SaveBtn = styled.button`
     background-color: ${(props) => props.theme.saveBtn};
     color: ${(props) => props.theme.cardBg};
     font-size: 20px;
+    text-transform: uppercase;
     padding: 14px 30px;
     border: 0;
     border-radius: 6px;

@@ -3,6 +3,7 @@ import { Provider } from 'react-redux'
 import { ThemeProvider } from 'styled-components'
 import html2canvas from 'html2canvas';
 import { saveAs } from 'file-saver';
+import './i18n'
 
 import { store } from './store'
 import Header from "./containers/Header"

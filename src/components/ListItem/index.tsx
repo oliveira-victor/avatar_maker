@@ -1,12 +1,13 @@
 import { useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
+import { useTranslation } from 'react-i18next'
 
 import { setCharLayer } from '../../store/reducers/avatarLayers'
+import { RootReducer } from '../../store'
 
 import * as S from './styles'
 
 import arrow from '../../assets/images/arrow.svg'
-import { RootReducer } from '../../store'
 
 type Imgs = {
     thumb: string
@@ -21,6 +22,8 @@ type Props = {
 }
 
 const ListItem = ({ id, title, image, themeIsDark }: Props) => {
+
+    const { t } = useTranslation()
 
     const [cardExpand, setCardExpand] = useState(true)
 
@@ -78,7 +81,7 @@ const ListItem = ({ id, title, image, themeIsDark }: Props) => {
     return (
         <S.ListItem key={id}>
             <S.ItemTitle onClick={() => setCardExpand(!cardExpand)}>
-                <h2>{title}</h2>
+                <h2>{t(`${title}`)}</h2>
                 <img className={cardExpand ? '' : 'rotate'} src={arrow} alt="Arrow icon" />
             </S.ItemTitle>
             {cardExpand && (

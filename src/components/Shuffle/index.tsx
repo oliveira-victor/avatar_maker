@@ -1,4 +1,6 @@
 import { useDispatch } from 'react-redux'
+import { useTranslation } from 'react-i18next'
+
 import { avatarData } from '../../utils/data/avatarData'
 import { setCharLayer } from '../../store/reducers/avatarLayers'
 
@@ -11,6 +13,8 @@ type Props = {
 }
 
 const Shuffle = ({ themeIsDark }: Props) => {
+
+    const { t } = useTranslation()
 
     const dispatch = useDispatch()
 
@@ -34,7 +38,7 @@ const Shuffle = ({ themeIsDark }: Props) => {
                 onClick={handleShuffle} 
                 src={dices} 
                 alt="Shuffle icon" 
-                title='Create random character' 
+                title={t('random')} 
                 style={{filter: themeIsDark ? 'invert(1)' : ''}}
             />
         </>

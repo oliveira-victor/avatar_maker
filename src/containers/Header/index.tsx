@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { useTranslation } from 'react-i18next'
 
 import ModalWindow from '../../components/ModalWindow'
 
@@ -12,6 +13,8 @@ type Props = {
 }
 
 const Header = ({ themeIsDark, handleCapture }: Props) => {
+
+    const { t } = useTranslation()
 
     const [modalIsOpen, setModalIsOpen] = useState(false)
 
@@ -28,7 +31,7 @@ const Header = ({ themeIsDark, handleCapture }: Props) => {
         <>
             <S.Header>
                 <h1>Avatar Maker</h1>
-                <S.SaveBtn type='button' onClick={handleSave}>SAVE <img src={downloadBtn} style={{ filter: themeIsDark ? 'invert(1)' : '' }} alt="Download icon" /></S.SaveBtn>
+                <S.SaveBtn type='button' onClick={handleSave}>{t('saveBtn')} <img src={downloadBtn} style={{ filter: themeIsDark ? 'invert(1)' : '' }} alt="Download icon" /></S.SaveBtn>
             </S.Header>
 
             {modalIsOpen && (

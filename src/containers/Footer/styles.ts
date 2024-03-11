@@ -48,6 +48,14 @@ export const FooterContent = styled.div`
     }
 `
 
+export const FooterList = styled.ul`
+    list-style: none;
+
+    li {
+        margin-top: 8px;
+    }
+`
+
 export const footerLogos = styled.div`
     display: flex;
     gap: 20px;
