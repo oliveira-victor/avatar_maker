@@ -9,7 +9,19 @@ import es from './translations/es.json'
 export let activeLang = "en"
 
 const detectLang = () => {
-    navigator.language === "pt-BR" ? activeLang = "pt-BR" : activeLang = "en"
+    if (navigator.language.includes("pt")) {
+        return activeLang = "pt-BR"
+    }
+
+    if (navigator.language.includes("fr")) {
+        return activeLang = "fr"
+    }
+
+    if (navigator.language.includes("es")) {
+        return activeLang = "es"
+    }
+
+    return activeLang = "en"
 }
 
 detectLang()
