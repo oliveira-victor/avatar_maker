@@ -3,6 +3,8 @@ import { initReactI18next } from 'react-i18next'
 
 import en from './translations/en.json'
 import ptBR from './translations/pt-BR.json'
+import fr from './translations/fr.json'
+import es from './translations/es.json'
 
 export let activeLang = "en"
 
@@ -19,6 +21,12 @@ const resources = {
     pt: {
         translation: ptBR,
     },
+    fr: {
+        translation: fr,
+    },
+    es: {
+        translation: es,
+    }
 }
 
 i18n

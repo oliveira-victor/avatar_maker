@@ -27,11 +27,18 @@ const Header = ({ themeIsDark, handleCapture }: Props) => {
         handleCapture()
     }
 
+    const checkBtnLength = () => {
+        if (t('saveBtn').length > 6) {
+            return 'reduceFontSize'
+        }
+        return ''
+    }
+
     return (
         <>
             <S.Header>
                 <h1>Avatar Maker</h1>
-                <S.SaveBtn type='button' onClick={handleSave}>{t('saveBtn')} <img src={downloadBtn} style={{ filter: themeIsDark ? 'invert(1)' : '' }} alt="Download icon" /></S.SaveBtn>
+                <S.SaveBtn className={checkBtnLength()} type='button' onClick={handleSave}>{t('saveBtn')} <img src={downloadBtn} style={{ filter: themeIsDark ? 'invert(1)' : ''}} alt="Download icon" /></S.SaveBtn>
             </S.Header>
 
             {modalIsOpen && (

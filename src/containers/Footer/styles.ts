@@ -38,27 +38,33 @@ export const FooterContent = styled.div`
     span {
         white-space: nowrap;
     }
+`
 
-    .aboutLink {
+export const FooterList = styled.ul`
+    list-style: none;
+
+    .selectedLang {
+            font-weight: bold;
+            text-decoration: underline;
+        }
+
+    li {
+        margin-top: 14px;
+
+        span {
         cursor: pointer;
 
         &:hover {
             text-decoration: underline;
         }
     }
-`
-
-export const FooterList = styled.ul`
-    list-style: none;
-
-    li {
-        margin-top: 8px;
     }
 `
 
 export const footerLogos = styled.div`
     display: flex;
     gap: 20px;
+    align-items: end;
 
     img {
         height: 40px;

@@ -14,6 +14,13 @@ export const Header = styled.header`
     width: 100%;
     transition: all .3s ease;
     z-index: 3;
+
+    .reduceFontSize {
+        @media (max-width: 468px) {
+            font-size: 14px;
+            padding: 14px 8px;
+        }
+    }
 `
 
 export const SaveBtn = styled.button`

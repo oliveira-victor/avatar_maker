@@ -37,21 +37,28 @@ const Footer = () => {
                     <br /><br />
                     <S.FooterList>
                         <li>
-                            • <span className='aboutLink' onClick={() => setModalIsOpen(true)}>{t('about')} </span>
+                            <span className='aboutLink' onClick={() => setModalIsOpen(true)}>{t('about')} </span>
                         </li>
                         <li>
-                            • <span className='aboutLink' onClick={() => changeLanguage('en')}>English</span>&nbsp;|&nbsp;
-                            <span className='aboutLink' onClick={() => changeLanguage('pt-BR')}>Português</span>
+                            <span className={i18n.resolvedLanguage === 'en' ? 'selectedLang' : ''} onClick={() => changeLanguage('en')}>English</span>&nbsp;|&nbsp;
+                            <span className={i18n.resolvedLanguage === 'pt' ? 'selectedLang' : ''} onClick={() => changeLanguage('pt-BR')}>Português</span>&nbsp;|&nbsp;
+                            <span className={i18n.resolvedLanguage === 'fr' ? 'selectedLang' : ''} onClick={() => changeLanguage('fr')}>Français</span>&nbsp;|&nbsp;
+                            <span className={i18n.resolvedLanguage === 'es' ? 'selectedLang' : ''} onClick={() => changeLanguage('es')}>Español</span>
                         </li>
                         <li>
-                            • <span> {t('donate')} &nbsp;
+                            {t('donate')}&nbsp;
+                            <span>
                                 <a href='https://www.paypal.com/donate/?business=SJF8WGT3UNRYN&no_recurring=0&item_name=Obrigado+por+considerar+doar+qualquer+quantia%21+Isso+%C3%A9+um+grande+incentivo+para+que+eu+continue+sendo+criativo.&currency_code=BRL' target='_blank'>
                                     BRL
                                 </a>
+                            </span>
+                            <span>
                                 &nbsp;|&nbsp;
                                 <a href="https://www.paypal.com/donate/?business=SJF8WGT3UNRYN&no_recurring=0&item_name=Thank+you+for+considering+donating+any+amount%21+That+is+a+huge+encouragement+to+keep+going.&currency_code=USD" target='_blank'>
                                     USD
                                 </a>
+                            </span>
+                            <span>
                                 &nbsp;|&nbsp;
                                 <a href="https://www.paypal.com/donate/?business=SJF8WGT3UNRYN&no_recurring=0&item_name=Thank+you+for+considering+donating+any+amount%21+That+is+a+huge+encouragement+to+keep+going.&currency_code=EUR" target='_blank'>
                                     EUR
