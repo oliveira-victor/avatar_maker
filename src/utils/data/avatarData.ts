@@ -89,6 +89,9 @@ import mouth18 from '../../assets/images/mouth/thumb18.png'
 import mouth19 from '../../assets/images/mouth/thumb19.png'
 import mouth20 from '../../assets/images/mouth/thumb20.png'
 import mouth21 from '../../assets/images/mouth/thumb21.png'
+import mouth22 from '../../assets/images/mouth/thumb22.png'
+import mouth23 from '../../assets/images/mouth/thumb23.png'
+import mouth24 from '../../assets/images/mouth/thumb24.png'
 
 import mouthImg1 from '../../assets/images/mouth/mouth01.png'
 import mouthImg2 from '../../assets/images/mouth/mouth02.png'
@@ -111,6 +114,9 @@ import mouthImg18 from '../../assets/images/mouth/mouth18.png'
 import mouthImg19 from '../../assets/images/mouth/mouth19.png'
 import mouthImg20 from '../../assets/images/mouth/mouth20.png'
 import mouthImg21 from '../../assets/images/mouth/mouth21.png'
+import mouthImg22 from '../../assets/images/mouth/mouth22.png'
+import mouthImg23 from '../../assets/images/mouth/mouth23.png'
+import mouthImg24 from '../../assets/images/mouth/mouth24.png'
 
 import hair1 from '../../assets/images/hair/thumb01.png'
 import hair2 from '../../assets/images/hair/thumb02.png'
@@ -181,6 +187,9 @@ import top8 from '../../assets/images/top/thumb08.png'
 import top9 from '../../assets/images/top/thumb09.png'
 import top10 from '../../assets/images/top/thumb10.png'
 import top11 from '../../assets/images/top/thumb11.png'
+import top12 from '../../assets/images/top/thumb12.png'
+import top13 from '../../assets/images/top/thumb13.png'
+import top14 from '../../assets/images/top/thumb14.png'
 
 import topImg1 from '../../assets/images/top/top01.png'
 import topImg2 from '../../assets/images/top/top02.png'
@@ -193,6 +202,9 @@ import topImg8 from '../../assets/images/top/top08.png'
 import topImg9 from '../../assets/images/top/top09.png'
 import topImg10 from '../../assets/images/top/top10.png'
 import topImg11 from '../../assets/images/top/top11.png'
+import topImg12 from '../../assets/images/top/top12.png'
+import topImg13 from '../../assets/images/top/top13.png'
+import topImg14 from '../../assets/images/top/top14.png'
 
 import bottom1 from '../../assets/images/bottom/thumb01.png'
 import bottom2 from '../../assets/images/bottom/thumb02.png'
@@ -286,6 +298,7 @@ import bg21 from '../../assets/images/background/thumb21.jpg'
 import bg22 from '../../assets/images/background/thumb22.jpg'
 import bg23 from '../../assets/images/background/thumb23.jpg'
 import bg24 from '../../assets/images/background/thumb24.jpg'
+import bg25 from '../../assets/images/background/thumb25.jpg'
 
 import bgImg1 from '../../assets/images/background/background01.jpg'
 import bgImg2 from '../../assets/images/background/background02.jpg'
@@ -311,6 +324,7 @@ import bgImg21 from '../../assets/images/background/background21.jpg'
 import bgImg22 from '../../assets/images/background/background22.jpg'
 import bgImg23 from '../../assets/images/background/background23.jpg'
 import bgImg24 from '../../assets/images/background/background24.jpg'
+import bgImg25 from '../../assets/images/background/background25.jpg'
 
 export const avatarData = [
     {
@@ -540,6 +554,18 @@ export const avatarData = [
             {
                 thumb: mouth21,
                 full: mouthImg21
+            },
+            {
+                thumb: mouth22,
+                full: mouthImg22
+            },
+            {
+                thumb: mouth23,
+                full: mouthImg23
+            },
+            {
+                thumb: mouth24,
+                full: mouthImg24
             }
         ]
     },
@@ -712,6 +738,18 @@ export const avatarData = [
             {
                 thumb: top11,
                 full: topImg11
+            },
+            {
+                thumb: top12,
+                full: topImg12
+            },
+            {
+                thumb: top13,
+                full: topImg13
+            },
+            {
+                thumb: top14,
+                full: topImg14
             }
         ]
     },
@@ -978,6 +1016,10 @@ export const avatarData = [
             {
                 thumb: bg24,
                 full: bgImg24
+            },
+            {
+                thumb: bg25,
+                full: bgImg25
             }
         ]
     }
