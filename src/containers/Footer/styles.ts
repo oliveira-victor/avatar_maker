@@ -24,10 +24,6 @@ export const FooterContent = styled.div`
     a {
         text-decoration: none;
         color: #fff;
-
-        &:hover {
-            text-decoration: underline;
-        }
     }
 
     h2 {
@@ -43,21 +39,16 @@ export const FooterContent = styled.div`
 export const FooterList = styled.ul`
     list-style: none;
 
-    .selectedLang {
-            font-weight: bold;
-            text-decoration: underline;
-        }
-
     li {
         margin-top: 14px;
 
         span {
-        cursor: pointer;
+            cursor: pointer;
 
-        &:hover {
-            text-decoration: underline;
+            &:hover {
+                text-decoration: underline;
+            }
         }
-    }
     }
 `
 

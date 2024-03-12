@@ -43,7 +43,6 @@ export const ModalContaienr = styled.div`
     .modalTitle {
         display: flex;
         justify-content: space-between;
-        align-items: center;
 
             .closeBtn {
                 height: 20px;

@@ -3,6 +3,7 @@ import { Trans, useTranslation } from 'react-i18next'
 import * as S from './styles'
 
 import closeBtn from '../../assets/images/close.svg'
+import Languages from '../Languages'
 
 type Props = {
     closeModal: () => void
@@ -21,6 +22,7 @@ const ModalWindow = ({ closeModal }: Props) => {
                     <img onClick={closeModal} className='closeBtn' src={closeBtn} alt="Close button" />
                 </div>
                 <span className='version'>{t('version')} 1.5</span>
+                <Languages /><br />
                 <p>
                     <Trans i18nKey={t('aboutP1')} />
                 </p>

@@ -9,6 +9,7 @@ import vfoStudio from '../../assets/images/vfostudio.svg'
 import vfo from '../../assets/images/vfo_white.svg'
 import github from '../../assets/images/github.svg'
 import instagram from '../../assets/images/instagram.svg'
+import Languages from '../../components/Languages'
 
 const Footer = () => {
 
@@ -18,12 +19,7 @@ const Footer = () => {
         setModalIsOpen(false)
     }
 
-    const { i18n } = useTranslation()
     const { t } = useTranslation()
-
-    const changeLanguage = (lang: string) => {
-        i18n.changeLanguage(lang)
-    }
 
     return (
         <S.Footer>
@@ -42,10 +38,7 @@ const Footer = () => {
                             <span className='aboutLink' onClick={() => setModalIsOpen(true)}>{t('about')} </span>
                         </li>
                         <li>
-                            <span className={i18n.resolvedLanguage === 'en' ? 'selectedLang' : ''} onClick={() => changeLanguage('en')}>English</span>&nbsp;|&nbsp;
-                            <span className={i18n.resolvedLanguage === 'pt' ? 'selectedLang' : ''} onClick={() => changeLanguage('pt-BR')}>Português</span>&nbsp;|&nbsp;
-                            <span className={i18n.resolvedLanguage === 'fr' ? 'selectedLang' : ''} onClick={() => changeLanguage('fr')}>Français</span>&nbsp;|&nbsp;
-                            <span className={i18n.resolvedLanguage === 'es' ? 'selectedLang' : ''} onClick={() => changeLanguage('es')}>Español</span>
+                            <Languages />
                         </li>
                         <li>
                             {t('donate')}&nbsp;
