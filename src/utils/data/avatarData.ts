@@ -190,6 +190,11 @@ import top11 from '../../assets/images/top/thumb11.png'
 import top12 from '../../assets/images/top/thumb12.png'
 import top13 from '../../assets/images/top/thumb13.png'
 import top14 from '../../assets/images/top/thumb14.png'
+import top15 from '../../assets/images/top/thumb15.png'
+import top16 from '../../assets/images/top/thumb16.png'
+import top17 from '../../assets/images/top/thumb17.png'
+import top18 from '../../assets/images/top/thumb18.png'
+import top19 from '../../assets/images/top/thumb19.png'
 
 import topImg1 from '../../assets/images/top/top01.png'
 import topImg2 from '../../assets/images/top/top02.png'
@@ -205,6 +210,11 @@ import topImg11 from '../../assets/images/top/top11.png'
 import topImg12 from '../../assets/images/top/top12.png'
 import topImg13 from '../../assets/images/top/top13.png'
 import topImg14 from '../../assets/images/top/top14.png'
+import topImg15 from '../../assets/images/top/top15.png'
+import topImg16 from '../../assets/images/top/top16.png'
+import topImg17 from '../../assets/images/top/top17.png'
+import topImg18 from '../../assets/images/top/top18.png'
+import topImg19 from '../../assets/images/top/top19.png'
 
 import bottom1 from '../../assets/images/bottom/thumb01.png'
 import bottom2 from '../../assets/images/bottom/thumb02.png'
@@ -215,6 +225,7 @@ import bottom6 from '../../assets/images/bottom/thumb06.png'
 import bottom7 from '../../assets/images/bottom/thumb07.png'
 import bottom8 from '../../assets/images/bottom/thumb08.png'
 import bottom9 from '../../assets/images/bottom/thumb09.png'
+import bottom10 from '../../assets/images/bottom/thumb10.png'
 
 import bottomImg1 from '../../assets/images/bottom/bottom01.png'
 import bottomImg2 from '../../assets/images/bottom/bottom02.png'
@@ -225,6 +236,7 @@ import bottomImg6 from '../../assets/images/bottom/bottom06.png'
 import bottomImg7 from '../../assets/images/bottom/bottom07.png'
 import bottomImg8 from '../../assets/images/bottom/bottom08.png'
 import bottomImg9 from '../../assets/images/bottom/bottom09.png'
+import bottomImg10 from '../../assets/images/bottom/bottom10.png'
 
 import shoes1 from '../../assets/images/shoes/thumb01.png'
 import shoes2 from '../../assets/images/shoes/thumb02.png'
@@ -258,6 +270,7 @@ import features3 from '../../assets/images/features/thumb03.png'
 import features4 from '../../assets/images/features/thumb04.png'
 import features5 from '../../assets/images/features/thumb05.png'
 import features6 from '../../assets/images/features/thumb06.png'
+import features7 from '../../assets/images/features/thumb07.png'
 
 import featuresImg1 from '../../assets/images/features/features01.png'
 import featuresImg2 from '../../assets/images/features/features02.png'
@@ -265,6 +278,7 @@ import featuresImg3 from '../../assets/images/features/features03.png'
 import featuresImg4 from '../../assets/images/features/features04.png'
 import featuresImg5 from '../../assets/images/features/features05.png'
 import featuresImg6 from '../../assets/images/features/features06.png'
+import featuresImg7 from '../../assets/images/features/features07.png'
 
 import extra1 from '../../assets/images/extra/thumb01.png'
 import extra2 from '../../assets/images/extra/thumb02.png'
@@ -750,6 +764,26 @@ export const avatarData = [
             {
                 thumb: top14,
                 full: topImg14
+            },
+            {
+                thumb: top15,
+                full: topImg15
+            },
+            {
+                thumb: top16,
+                full: topImg16
+            },
+            {
+                thumb: top17,
+                full: topImg17
+            },
+            {
+                thumb: top18,
+                full: topImg18
+            },
+            {
+                thumb: top19,
+                full: topImg19
             }
         ]
     },
@@ -796,6 +830,10 @@ export const avatarData = [
             {
                 thumb: bottom9,
                 full: bottomImg9
+            },
+            {
+                thumb: bottom10,
+                full: bottomImg10
             }
         ]
     },
@@ -888,6 +926,10 @@ export const avatarData = [
             {
                 thumb: features6,
                 full: featuresImg6
+            },
+            {
+                thumb: features7,
+                full: featuresImg7
             }
         ]
     },
