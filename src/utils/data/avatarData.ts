@@ -146,6 +146,7 @@ import hair25 from '../../assets/images/hair/thumb25.png'
 import hair26 from '../../assets/images/hair/thumb26.png'
 import hair27 from '../../assets/images/hair/thumb27.png'
 import hair28 from '../../assets/images/hair/thumb28.png'
+import hair29 from '../../assets/images/hair/thumb29.png'
 
 import hairImg1 from '../../assets/images/hair/hair01.png'
 import hairImg2 from '../../assets/images/hair/hair02.png'
@@ -175,6 +176,7 @@ import hairImg25 from '../../assets/images/hair/hair25.png'
 import hairImg26 from '../../assets/images/hair/hair26.png'
 import hairImg27 from '../../assets/images/hair/hair27.png'
 import hairImg28 from '../../assets/images/hair/hair28.png'
+import hairImg29 from '../../assets/images/hair/hair29.png'
 
 import top1 from '../../assets/images/top/thumb01.png'
 import top2 from '../../assets/images/top/thumb02.png'
@@ -275,6 +277,7 @@ import features4 from '../../assets/images/features/thumb04.png'
 import features5 from '../../assets/images/features/thumb05.png'
 import features6 from '../../assets/images/features/thumb06.png'
 import features7 from '../../assets/images/features/thumb07.png'
+import features8 from '../../assets/images/features/thumb08.png'
 
 import featuresImg1 from '../../assets/images/features/features01.png'
 import featuresImg2 from '../../assets/images/features/features02.png'
@@ -283,6 +286,7 @@ import featuresImg4 from '../../assets/images/features/features04.png'
 import featuresImg5 from '../../assets/images/features/features05.png'
 import featuresImg6 from '../../assets/images/features/features06.png'
 import featuresImg7 from '../../assets/images/features/features07.png'
+import featuresImg8 from '../../assets/images/features/features08.png'
 
 import extra1 from '../../assets/images/extra/thumb01.png'
 import extra2 from '../../assets/images/extra/thumb02.png'
@@ -706,6 +710,10 @@ export const avatarData = [
             {
                 thumb: hair28,
                 full: hairImg28
+            },
+            {
+                thumb: hair29,
+                full: hairImg29
             }
         ]
     },
@@ -942,6 +950,10 @@ export const avatarData = [
             {
                 thumb: features7,
                 full: featuresImg7
+            },
+            {
+                thumb: features8,
+                full: featuresImg8
             }
         ]
     },
