@@ -197,6 +197,7 @@ import top16 from '../../assets/images/top/thumb16.png'
 import top17 from '../../assets/images/top/thumb17.png'
 import top18 from '../../assets/images/top/thumb18.png'
 import top19 from '../../assets/images/top/thumb19.png'
+import top20 from '../../assets/images/top/thumb20.png'
 
 import topImg1 from '../../assets/images/top/top01.png'
 import topImg2 from '../../assets/images/top/top02.png'
@@ -217,6 +218,7 @@ import topImg16 from '../../assets/images/top/top16.png'
 import topImg17 from '../../assets/images/top/top17.png'
 import topImg18 from '../../assets/images/top/top18.png'
 import topImg19 from '../../assets/images/top/top19.png'
+import topImg20 from '../../assets/images/top/top20.png'
 
 import bottom1 from '../../assets/images/bottom/thumb01.png'
 import bottom2 from '../../assets/images/bottom/thumb02.png'
@@ -796,6 +798,10 @@ export const avatarData = [
             {
                 thumb: top19,
                 full: topImg19
+            },
+            {
+                thumb: top20,
+                full: topImg20
             }
         ]
     },
