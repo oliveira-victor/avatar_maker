@@ -198,6 +198,12 @@ import top17 from '../../assets/images/top/thumb17.png'
 import top18 from '../../assets/images/top/thumb18.png'
 import top19 from '../../assets/images/top/thumb19.png'
 import top20 from '../../assets/images/top/thumb20.png'
+import top21 from '../../assets/images/top/thumb21.png'
+import top22 from '../../assets/images/top/thumb22.png'
+import top23 from '../../assets/images/top/thumb23.png'
+import top24 from '../../assets/images/top/thumb24.png'
+import top25 from '../../assets/images/top/thumb25.png'
+import top26 from '../../assets/images/top/thumb26.png'
 
 import topImg1 from '../../assets/images/top/top01.png'
 import topImg2 from '../../assets/images/top/top02.png'
@@ -219,6 +225,12 @@ import topImg17 from '../../assets/images/top/top17.png'
 import topImg18 from '../../assets/images/top/top18.png'
 import topImg19 from '../../assets/images/top/top19.png'
 import topImg20 from '../../assets/images/top/top20.png'
+import topImg21 from '../../assets/images/top/top21.png'
+import topImg22 from '../../assets/images/top/top22.png'
+import topImg23 from '../../assets/images/top/top23.png'
+import topImg24 from '../../assets/images/top/top24.png'
+import topImg25 from '../../assets/images/top/top25.png'
+import topImg26 from '../../assets/images/top/top26.png'
 
 import bottom1 from '../../assets/images/bottom/thumb01.png'
 import bottom2 from '../../assets/images/bottom/thumb02.png'
@@ -802,6 +814,30 @@ export const avatarData = [
             {
                 thumb: top20,
                 full: topImg20
+            },
+            {
+                thumb: top21,
+                full: topImg21
+            },
+            {
+                thumb: top22,
+                full: topImg22
+            },
+            {
+                thumb: top23,
+                full: topImg23
+            },
+            {
+                thumb: top24,
+                full: topImg24
+            },
+            {
+                thumb: top25,
+                full: topImg25
+            },
+            {
+                thumb: top26,
+                full: topImg26
             }
         ]
     },
