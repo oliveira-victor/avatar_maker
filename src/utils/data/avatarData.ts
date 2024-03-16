@@ -204,6 +204,7 @@ import top23 from '../../assets/images/top/thumb23.png'
 import top24 from '../../assets/images/top/thumb24.png'
 import top25 from '../../assets/images/top/thumb25.png'
 import top26 from '../../assets/images/top/thumb26.png'
+import top27 from '../../assets/images/top/thumb27.png'
 
 import topImg1 from '../../assets/images/top/top01.png'
 import topImg2 from '../../assets/images/top/top02.png'
@@ -231,6 +232,7 @@ import topImg23 from '../../assets/images/top/top23.png'
 import topImg24 from '../../assets/images/top/top24.png'
 import topImg25 from '../../assets/images/top/top25.png'
 import topImg26 from '../../assets/images/top/top26.png'
+import topImg27 from '../../assets/images/top/top27.png'
 
 import bottom1 from '../../assets/images/bottom/thumb01.png'
 import bottom2 from '../../assets/images/bottom/thumb02.png'
@@ -244,6 +246,9 @@ import bottom9 from '../../assets/images/bottom/thumb09.png'
 import bottom10 from '../../assets/images/bottom/thumb10.png'
 import bottom11 from '../../assets/images/bottom/thumb11.png'
 import bottom12 from '../../assets/images/bottom/thumb12.png'
+import bottom13 from '../../assets/images/bottom/thumb13.png'
+import bottom14 from '../../assets/images/bottom/thumb14.png'
+import bottom15 from '../../assets/images/bottom/thumb15.png'
 
 import bottomImg1 from '../../assets/images/bottom/bottom01.png'
 import bottomImg2 from '../../assets/images/bottom/bottom02.png'
@@ -257,6 +262,9 @@ import bottomImg9 from '../../assets/images/bottom/bottom09.png'
 import bottomImg10 from '../../assets/images/bottom/bottom10.png'
 import bottomImg11 from '../../assets/images/bottom/bottom11.png'
 import bottomImg12 from '../../assets/images/bottom/bottom12.png'
+import bottomImg13 from '../../assets/images/bottom/bottom13.png'
+import bottomImg14 from '../../assets/images/bottom/bottom14.png'
+import bottomImg15 from '../../assets/images/bottom/bottom15.png'
 
 import shoes1 from '../../assets/images/shoes/thumb01.png'
 import shoes2 from '../../assets/images/shoes/thumb02.png'
@@ -838,6 +846,10 @@ export const avatarData = [
             {
                 thumb: top26,
                 full: topImg26
+            },
+            {
+                thumb: top27,
+                full: topImg27
             }
         ]
     },
@@ -896,6 +908,18 @@ export const avatarData = [
             {
                 thumb: bottom12,
                 full: bottomImg12
+            },
+            {
+                thumb: bottom13,
+                full: bottomImg13
+            },
+            {
+                thumb: bottom14,
+                full: bottomImg14
+            },
+            {
+                thumb: bottom15,
+                full: bottomImg15
             }
         ]
     },
