@@ -92,6 +92,7 @@ import mouth21 from '../../assets/images/mouth/thumb21.png'
 import mouth22 from '../../assets/images/mouth/thumb22.png'
 import mouth23 from '../../assets/images/mouth/thumb23.png'
 import mouth24 from '../../assets/images/mouth/thumb24.png'
+import mouth25 from '../../assets/images/mouth/thumb25.png'
 
 import mouthImg1 from '../../assets/images/mouth/mouth01.png'
 import mouthImg2 from '../../assets/images/mouth/mouth02.png'
@@ -117,6 +118,7 @@ import mouthImg21 from '../../assets/images/mouth/mouth21.png'
 import mouthImg22 from '../../assets/images/mouth/mouth22.png'
 import mouthImg23 from '../../assets/images/mouth/mouth23.png'
 import mouthImg24 from '../../assets/images/mouth/mouth24.png'
+import mouthImg25 from '../../assets/images/mouth/mouth25.png'
 
 import hair1 from '../../assets/images/hair/thumb01.png'
 import hair2 from '../../assets/images/hair/thumb02.png'
@@ -278,6 +280,8 @@ import shoes9 from '../../assets/images/shoes/thumb09.png'
 import shoes10 from '../../assets/images/shoes/thumb10.png'
 import shoes11 from '../../assets/images/shoes/thumb11.png'
 import shoes12 from '../../assets/images/shoes/thumb12.png'
+import shoes13 from '../../assets/images/shoes/thumb13.png'
+import shoes14 from '../../assets/images/shoes/thumb14.png'
 
 import shoesImg1 from '../../assets/images/shoes/shoes01.png'
 import shoesImg2 from '../../assets/images/shoes/shoes02.png'
@@ -291,6 +295,8 @@ import shoesImg9 from '../../assets/images/shoes/shoes09.png'
 import shoesImg10 from '../../assets/images/shoes/shoes10.png'
 import shoesImg11 from '../../assets/images/shoes/shoes11.png'
 import shoesImg12 from '../../assets/images/shoes/shoes12.png'
+import shoesImg13 from '../../assets/images/shoes/shoes13.png'
+import shoesImg14 from '../../assets/images/shoes/shoes14.png'
 
 import features1 from '../../assets/images/features/thumb01.png'
 import features2 from '../../assets/images/features/thumb02.png'
@@ -610,6 +616,10 @@ export const avatarData = [
             {
                 thumb: mouth24,
                 full: mouthImg24
+            },
+            {
+                thumb: mouth25,
+                full: mouthImg25
             }
         ]
     },
@@ -978,6 +988,14 @@ export const avatarData = [
             {
                 thumb: shoes12,
                 full: shoesImg12
+            },
+            {
+                thumb: shoes13,
+                full: shoesImg13
+            },
+            {
+                thumb: shoes14,
+                full: shoesImg14
             }
         ]
     },
