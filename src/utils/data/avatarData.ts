@@ -9,9 +9,6 @@ import skin6 from '../../assets/images/skin/thumb06.jpg'
 import skin7 from '../../assets/images/skin/thumb07.jpg'
 import skin8 from '../../assets/images/skin/thumb08.jpg'
 import skin9 from '../../assets/images/skin/thumb09.jpg'
-import skin10 from '../../assets/images/skin/thumb10.jpg'
-import skin11 from '../../assets/images/skin/thumb11.jpg'
-import skin12 from '../../assets/images/skin/thumb12.jpg'
 
 import skinImg1 from '../../assets/images/skin/skin01.png'
 import skinImg2 from '../../assets/images/skin/skin02.png'
@@ -22,9 +19,6 @@ import skinImg6 from '../../assets/images/skin/skin06.png'
 import skinImg7 from '../../assets/images/skin/skin07.png'
 import skinImg8 from '../../assets/images/skin/skin08.png'
 import skinImg9 from '../../assets/images/skin/skin09.png'
-import skinImg10 from '../../assets/images/skin/skin10.png'
-import skinImg11 from '../../assets/images/skin/skin11.png'
-import skinImg12 from '../../assets/images/skin/skin12.png'
 
 import eyes1 from '../../assets/images/eyes/thumb01.png'
 import eyes2 from '../../assets/images/eyes/thumb02.png'
@@ -251,6 +245,12 @@ import bottom12 from '../../assets/images/bottom/thumb12.png'
 import bottom13 from '../../assets/images/bottom/thumb13.png'
 import bottom14 from '../../assets/images/bottom/thumb14.png'
 import bottom15 from '../../assets/images/bottom/thumb15.png'
+import bottom16 from '../../assets/images/bottom/thumb16.png'
+import bottom17 from '../../assets/images/bottom/thumb17.png'
+import bottom18 from '../../assets/images/bottom/thumb18.png'
+import bottom19 from '../../assets/images/bottom/thumb19.png'
+import bottom20 from '../../assets/images/bottom/thumb20.png'
+import bottom21 from '../../assets/images/bottom/thumb21.png'
 
 import bottomImg1 from '../../assets/images/bottom/bottom01.png'
 import bottomImg2 from '../../assets/images/bottom/bottom02.png'
@@ -267,6 +267,12 @@ import bottomImg12 from '../../assets/images/bottom/bottom12.png'
 import bottomImg13 from '../../assets/images/bottom/bottom13.png'
 import bottomImg14 from '../../assets/images/bottom/bottom14.png'
 import bottomImg15 from '../../assets/images/bottom/bottom15.png'
+import bottomImg16 from '../../assets/images/bottom/bottom16.png'
+import bottomImg17 from '../../assets/images/bottom/bottom17.png'
+import bottomImg18 from '../../assets/images/bottom/bottom18.png'
+import bottomImg19 from '../../assets/images/bottom/bottom19.png'
+import bottomImg20 from '../../assets/images/bottom/bottom20.png'
+import bottomImg21 from '../../assets/images/bottom/bottom21.png'
 
 import shoes1 from '../../assets/images/shoes/thumb01.png'
 import shoes2 from '../../assets/images/shoes/thumb02.png'
@@ -416,18 +422,6 @@ export const avatarData = [
             {
                 thumb: skin9,
                 full: skinImg9
-            },
-            {
-                thumb: skin10,
-                full: skinImg10
-            },
-            {
-                thumb: skin11,
-                full: skinImg11
-            },
-            {
-                thumb: skin12,
-                full: skinImg12
             }
         ]
     },
@@ -930,6 +924,30 @@ export const avatarData = [
             {
                 thumb: bottom15,
                 full: bottomImg15
+            },
+            {
+                thumb: bottom16,
+                full: bottomImg16
+            },
+            {
+                thumb: bottom17,
+                full: bottomImg17
+            },
+            {
+                thumb: bottom18,
+                full: bottomImg18
+            },
+            {
+                thumb: bottom19,
+                full: bottomImg19
+            },
+            {
+                thumb: bottom20,
+                full: bottomImg20
+            },
+            {
+                thumb: bottom21,
+                full: bottomImg21
             }
         ]
     },
