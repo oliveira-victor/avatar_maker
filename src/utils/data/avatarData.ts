@@ -251,6 +251,8 @@ import bottom18 from '../../assets/images/bottom/thumb18.png'
 import bottom19 from '../../assets/images/bottom/thumb19.png'
 import bottom20 from '../../assets/images/bottom/thumb20.png'
 import bottom21 from '../../assets/images/bottom/thumb21.png'
+import bottom22 from '../../assets/images/bottom/thumb22.png'
+import bottom23 from '../../assets/images/bottom/thumb23.png'
 
 import bottomImg1 from '../../assets/images/bottom/bottom01.png'
 import bottomImg2 from '../../assets/images/bottom/bottom02.png'
@@ -273,6 +275,8 @@ import bottomImg18 from '../../assets/images/bottom/bottom18.png'
 import bottomImg19 from '../../assets/images/bottom/bottom19.png'
 import bottomImg20 from '../../assets/images/bottom/bottom20.png'
 import bottomImg21 from '../../assets/images/bottom/bottom21.png'
+import bottomImg22 from '../../assets/images/bottom/bottom22.png'
+import bottomImg23 from '../../assets/images/bottom/bottom23.png'
 
 import shoes1 from '../../assets/images/shoes/thumb01.png'
 import shoes2 from '../../assets/images/shoes/thumb02.png'
@@ -325,10 +329,12 @@ import featuresImg8 from '../../assets/images/features/features08.png'
 import extra1 from '../../assets/images/extra/thumb01.png'
 import extra2 from '../../assets/images/extra/thumb02.png'
 import extra3 from '../../assets/images/extra/thumb03.png'
+import extra4 from '../../assets/images/extra/thumb04.png'
 
 import extraImg1 from '../../assets/images/extra/extra01.gif'
 import extraImg2 from '../../assets/images/extra/extra02.gif'
 import extraImg3 from '../../assets/images/extra/extra03.gif'
+import extraImg4 from '../../assets/images/extra/extra04.gif'
 
 import bg1 from '../../assets/images/background/thumb01.jpg'
 import bg2 from '../../assets/images/background/thumb02.jpg'
@@ -948,6 +954,14 @@ export const avatarData = [
             {
                 thumb: bottom21,
                 full: bottomImg21
+            },
+            {
+                thumb: bottom22,
+                full: bottomImg22
+            },
+            {
+                thumb: bottom23,
+                full: bottomImg23
             }
         ]
     },
@@ -1078,6 +1092,10 @@ export const avatarData = [
             {
                 thumb: extra3,
                 full: extraImg3
+            },
+            {
+                thumb: extra4,
+                full: extraImg4
             }
         ]
     },
