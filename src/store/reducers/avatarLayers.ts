@@ -1,5 +1,7 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit'
 
+import { aliceLayers } from '../../utils/data/aliceData'
+
 type avatarState = {
     avatarLayers: {
         skin: string
@@ -73,6 +75,19 @@ const nameSlice = createSlice({
 
             if (action.payload.includes("background") || action.payload.includes("backgroundEmpty")) {
                 state.avatarLayers.background = action.payload
+            }
+
+            if (action.payload.includes("alice")) {
+                state.avatarLayers.skin = aliceLayers.skin
+                state.avatarLayers.eyes = aliceLayers.eyes
+                state.avatarLayers.mouth = aliceLayers.mouth
+                state.avatarLayers.hair = aliceLayers.hair
+                state.avatarLayers.top = aliceLayers.top
+                state.avatarLayers.bottom = aliceLayers.bottom
+                state.avatarLayers.shoes = aliceLayers.shoes
+                state.avatarLayers.features = aliceLayers.features
+                state.avatarLayers.extra = aliceLayers.extra
+                state.avatarLayers.background = aliceLayers.background
             }
         }
     }

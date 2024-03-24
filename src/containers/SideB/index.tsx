@@ -7,6 +7,7 @@ import { avatarData } from '../../utils/data/avatarData'
 import { setName } from '../../store/reducers/name'
 import ModalWindow from '../../components/ModalWindow'
 import Shuffle from '../../components/Shuffle'
+import { aliceData } from '../../utils/data/aliceData'
 
 import * as S from './styles'
 
@@ -27,6 +28,8 @@ const SideB = ({ switchTheme, themeIsDark, getFileName }: Props) => {
 
     const [newName, setNewName] = useState<string>('')
 
+    const [aliceEasterEgg, setAliceEasterEgg] = useState<boolean>(false)
+
     useEffect(() => {
         dispatch(setName(newName))
     }, [newName])
@@ -42,6 +45,10 @@ const SideB = ({ switchTheme, themeIsDark, getFileName }: Props) => {
         setModalIsOpen(false)
     }
 
+    const checkName = () => {
+        newName.toLocaleLowerCase().trim() === 'alice' ? setAliceEasterEgg(true) : setAliceEasterEgg(false)
+    }
+
     return (
         <S.ContainerB id="customScrollbar">
 
@@ -50,13 +57,14 @@ const SideB = ({ switchTheme, themeIsDark, getFileName }: Props) => {
             )}
 
             <S.TopBar>
-                <input 
-                    value={newName} 
-                    onChange={handleInputChange} 
-                    type="text" 
-                    name="name" 
-                    id="name" 
-                    placeholder={t('inputPlaceholder')} 
+                <input
+                    value={newName}
+                    onChange={handleInputChange}
+                    onBlur={checkName}
+                    type="text"
+                    name="name"
+                    id="name"
+                    placeholder={t('inputPlaceholder')}
                     maxLength={26}
                 />
                 <S.ToggleBtn onClick={switchTheme}>
@@ -89,6 +97,16 @@ const SideB = ({ switchTheme, themeIsDark, getFileName }: Props) => {
                         themeIsDark={themeIsDark}
                     />
                 ))}
+                {aliceEasterEgg &&
+                    aliceData.map((item) => (
+                        <ListItem key={item.id}
+                            id={item.id}
+                            title={item.title}
+                            image={item.image}
+                            themeIsDark={themeIsDark}
+                        />
+                    ))
+                }
             </ul>
         </S.ContainerB>
     )
