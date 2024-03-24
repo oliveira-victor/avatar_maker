@@ -42,7 +42,6 @@ const SideB = ({ switchTheme, themeIsDark, getFileName }: Props) => {
         setModalIsOpen(false)
     }
 
-
     return (
         <S.ContainerB id="customScrollbar">
 
