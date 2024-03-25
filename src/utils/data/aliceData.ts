@@ -18,7 +18,7 @@ export const aliceData = [
         image: [
             {
                 thumb: alice,
-                full: alice
+                full: "alice"
             }
         ]
     }
