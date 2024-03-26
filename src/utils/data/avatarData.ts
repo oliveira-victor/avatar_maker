@@ -271,6 +271,9 @@ import bottom20 from '../../assets/images/bottom/thumb20.png'
 import bottom21 from '../../assets/images/bottom/thumb21.png'
 import bottom22 from '../../assets/images/bottom/thumb22.png'
 import bottom23 from '../../assets/images/bottom/thumb23.png'
+import bottom24 from '../../assets/images/bottom/thumb24.png'
+import bottom25 from '../../assets/images/bottom/thumb25.png'
+import bottom26 from '../../assets/images/bottom/thumb26.png'
 
 import bottomImg1 from '../../assets/images/bottom/bottom01.png'
 import bottomImg2 from '../../assets/images/bottom/bottom02.png'
@@ -295,6 +298,9 @@ import bottomImg20 from '../../assets/images/bottom/bottom20.png'
 import bottomImg21 from '../../assets/images/bottom/bottom21.png'
 import bottomImg22 from '../../assets/images/bottom/bottom22.png'
 import bottomImg23 from '../../assets/images/bottom/bottom23.png'
+import bottomImg24 from '../../assets/images/bottom/bottom24.png'
+import bottomImg25 from '../../assets/images/bottom/bottom25.png'
+import bottomImg26 from '../../assets/images/bottom/bottom26.png'
 
 import shoes1 from '../../assets/images/shoes/thumb01.png'
 import shoes2 from '../../assets/images/shoes/thumb02.png'
@@ -1022,6 +1028,18 @@ export const avatarData = [
             {
                 thumb: bottom23,
                 full: bottomImg23
+            },
+            {
+                thumb: bottom24,
+                full: bottomImg24
+            },
+            {
+                thumb: bottom25,
+                full: bottomImg25
+            },
+            {
+                thumb: bottom26,
+                full: bottomImg26
             }
         ]
     },
