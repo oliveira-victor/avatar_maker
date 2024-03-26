@@ -40,6 +40,13 @@ import eyes17 from '../../assets/images/eyes/thumb17.png'
 import eyes18 from '../../assets/images/eyes/thumb18.png'
 import eyes19 from '../../assets/images/eyes/thumb19.png'
 import eyes20 from '../../assets/images/eyes/thumb20.png'
+import eyes21 from '../../assets/images/eyes/thumb21.png'
+import eyes22 from '../../assets/images/eyes/thumb22.png'
+import eyes23 from '../../assets/images/eyes/thumb23.png'
+import eyes24 from '../../assets/images/eyes/thumb24.png'
+import eyes25 from '../../assets/images/eyes/thumb25.png'
+import eyes26 from '../../assets/images/eyes/thumb26.png'
+import eyes27 from '../../assets/images/eyes/thumb27.png'
 
 import eyesImg1 from '../../assets/images/eyes/eyes01.png'
 import eyesImg2 from '../../assets/images/eyes/eyes02.png'
@@ -61,6 +68,13 @@ import eyesImg17 from '../../assets/images/eyes/eyes17.png'
 import eyesImg18 from '../../assets/images/eyes/eyes18.png'
 import eyesImg19 from '../../assets/images/eyes/eyes19.png'
 import eyesImg20 from '../../assets/images/eyes/eyes20.png'
+import eyesImg21 from '../../assets/images/eyes/eyes21.png'
+import eyesImg22 from '../../assets/images/eyes/eyes22.png'
+import eyesImg23 from '../../assets/images/eyes/eyes23.png'
+import eyesImg24 from '../../assets/images/eyes/eyes24.png'
+import eyesImg25 from '../../assets/images/eyes/eyes25.png'
+import eyesImg26 from '../../assets/images/eyes/eyes26.png'
+import eyesImg27 from '../../assets/images/eyes/eyes27.png'
 
 import mouth1 from '../../assets/images/mouth/thumb01.png'
 import mouth2 from '../../assets/images/mouth/thumb02.png'
@@ -87,6 +101,8 @@ import mouth22 from '../../assets/images/mouth/thumb22.png'
 import mouth23 from '../../assets/images/mouth/thumb23.png'
 import mouth24 from '../../assets/images/mouth/thumb24.png'
 import mouth25 from '../../assets/images/mouth/thumb25.png'
+import mouth26 from '../../assets/images/mouth/thumb26.png'
+import mouth27 from '../../assets/images/mouth/thumb27.png'
 
 import mouthImg1 from '../../assets/images/mouth/mouth01.png'
 import mouthImg2 from '../../assets/images/mouth/mouth02.png'
@@ -113,6 +129,8 @@ import mouthImg22 from '../../assets/images/mouth/mouth22.png'
 import mouthImg23 from '../../assets/images/mouth/mouth23.png'
 import mouthImg24 from '../../assets/images/mouth/mouth24.png'
 import mouthImg25 from '../../assets/images/mouth/mouth25.png'
+import mouthImg26 from '../../assets/images/mouth/mouth26.png'
+import mouthImg27 from '../../assets/images/mouth/mouth27.png'
 
 import hair1 from '../../assets/images/hair/thumb01.png'
 import hair2 from '../../assets/images/hair/thumb02.png'
@@ -520,6 +538,34 @@ export const avatarData = [
             {
                 thumb: eyes20,
                 full: eyesImg20
+            },
+            {
+                thumb: eyes21,
+                full: eyesImg21
+            },
+            {
+                thumb: eyes22,
+                full: eyesImg22
+            },
+            {
+                thumb: eyes23,
+                full: eyesImg23
+            },
+            {
+                thumb: eyes24,
+                full: eyesImg24
+            },
+            {
+                thumb: eyes25,
+                full: eyesImg25
+            },
+            {
+                thumb: eyes26,
+                full: eyesImg26
+            },
+            {
+                thumb: eyes27,
+                full: eyesImg27
             }
         ]
     },
@@ -626,6 +672,14 @@ export const avatarData = [
             {
                 thumb: mouth25,
                 full: mouthImg25
+            },
+            {
+                thumb: mouth26,
+                full: mouthImg26
+            },
+            {
+                thumb: mouth27,
+                full: mouthImg27
             }
         ]
     },
