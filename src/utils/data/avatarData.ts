@@ -161,6 +161,8 @@ import hair26 from '../../assets/images/hair/thumb26.png'
 import hair27 from '../../assets/images/hair/thumb27.png'
 import hair28 from '../../assets/images/hair/thumb28.png'
 import hair29 from '../../assets/images/hair/thumb29.png'
+import hair30 from '../../assets/images/hair/thumb30.png'
+import hair31 from '../../assets/images/hair/thumb31.png'
 
 import hairImg1 from '../../assets/images/hair/hair01.png'
 import hairImg2 from '../../assets/images/hair/hair02.png'
@@ -191,6 +193,8 @@ import hairImg26 from '../../assets/images/hair/hair26.png'
 import hairImg27 from '../../assets/images/hair/hair27.png'
 import hairImg28 from '../../assets/images/hair/hair28.png'
 import hairImg29 from '../../assets/images/hair/hair29.png'
+import hairImg30 from '../../assets/images/hair/hair30.png'
+import hairImg31 from '../../assets/images/hair/hair31.png'
 
 import top1 from '../../assets/images/top/thumb01.png'
 import top2 from '../../assets/images/top/thumb02.png'
@@ -316,6 +320,9 @@ import shoes11 from '../../assets/images/shoes/thumb11.png'
 import shoes12 from '../../assets/images/shoes/thumb12.png'
 import shoes13 from '../../assets/images/shoes/thumb13.png'
 import shoes14 from '../../assets/images/shoes/thumb14.png'
+import shoes15 from '../../assets/images/shoes/thumb15.png'
+import shoes16 from '../../assets/images/shoes/thumb16.png'
+import shoes17 from '../../assets/images/shoes/thumb17.png'
 
 import shoesImg1 from '../../assets/images/shoes/shoes01.png'
 import shoesImg2 from '../../assets/images/shoes/shoes02.png'
@@ -331,6 +338,9 @@ import shoesImg11 from '../../assets/images/shoes/shoes11.png'
 import shoesImg12 from '../../assets/images/shoes/shoes12.png'
 import shoesImg13 from '../../assets/images/shoes/shoes13.png'
 import shoesImg14 from '../../assets/images/shoes/shoes14.png'
+import shoesImg15 from '../../assets/images/shoes/shoes15.png'
+import shoesImg16 from '../../assets/images/shoes/shoes16.png'
+import shoesImg17 from '../../assets/images/shoes/shoes17.png'
 
 import features1 from '../../assets/images/features/thumb01.png'
 import features2 from '../../assets/images/features/thumb02.png'
@@ -812,6 +822,14 @@ export const avatarData = [
             {
                 thumb: hair29,
                 full: hairImg29
+            },
+            {
+                thumb: hair30,
+                full: hairImg30
+            },
+            {
+                thumb: hair31,
+                full: hairImg31
             }
         ]
     },
@@ -1106,6 +1124,18 @@ export const avatarData = [
             {
                 thumb: shoes14,
                 full: shoesImg14
+            },
+            {
+                thumb: shoes15,
+                full: shoesImg15
+            },
+            {
+                thumb: shoes16,
+                full: shoesImg16
+            },
+            {
+                thumb: shoes17,
+                full: shoesImg17
             }
         ]
     },
