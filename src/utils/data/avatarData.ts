@@ -165,6 +165,9 @@ import hair30 from '../../assets/images/hair/thumb30.png'
 import hair31 from '../../assets/images/hair/thumb31.png'
 import hair32 from '../../assets/images/hair/thumb32.png'
 import hair33 from '../../assets/images/hair/thumb33.png'
+import hair34 from '../../assets/images/hair/thumb34.png'
+import hair35 from '../../assets/images/hair/thumb35.png'
+import hair36 from '../../assets/images/hair/thumb36.png'
 
 import hairImg1 from '../../assets/images/hair/hair01.png'
 import hairImg2 from '../../assets/images/hair/hair02.png'
@@ -199,6 +202,9 @@ import hairImg30 from '../../assets/images/hair/hair30.png'
 import hairImg31 from '../../assets/images/hair/hair31.png'
 import hairImg32 from '../../assets/images/hair/hair32.png'
 import hairImg33 from '../../assets/images/hair/hair33.png'
+import hairImg34 from '../../assets/images/hair/hair34.png'
+import hairImg35 from '../../assets/images/hair/hair35.png'
+import hairImg36 from '../../assets/images/hair/hair36.png'
 
 import top1 from '../../assets/images/top/thumb01.png'
 import top2 from '../../assets/images/top/thumb02.png'
@@ -842,6 +848,18 @@ export const avatarData = [
             {
                 thumb: hair33,
                 full: hairImg33
+            },
+            {
+                thumb: hair34,
+                full: hairImg34
+            },
+            {
+                thumb: hair35,
+                full: hairImg35
+            },
+            {
+                thumb: hair36,
+                full: hairImg36
             }
         ]
     },
