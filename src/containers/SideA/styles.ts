@@ -40,7 +40,7 @@ export const AvatarContainer = styled.div`
         height: 60px;
         position: absolute;
         bottom: 0;
-        margin-bottom: 6px;
+        transform: translateY(-6px);
         font-family: "Tangerine", cursive;
         font-weight: bold;
 
