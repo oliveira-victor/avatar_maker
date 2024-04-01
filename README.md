@@ -44,6 +44,14 @@ https://github.com/oliveira-victor/avatar_maker/assets/116602113/d2a2841e-6cf5-4
 
 5. Open your browser: Navigate to http://localhost:5173.
 
+## Developing
+
+The image files must be placed in their specific folders, separated by layers of characters. They must have the same proportions and follow the same name pattern.
+* The full image (that will be used as a layer of the character) should be named the same as the containing folder, plus a two-digit number (e.g., skin/skin01.png), following the numbers sequence.
+* The thumbnails should be placed in the same folder as the layers, but named as thumb + the two-digit number sequence (e.g., skin/thumb01.png).
+* The image layers are in vertical 4:3 proportion.
+
+Redux layers slice will expect the images to be named as such, so it can handle the layers properly.
 
 ## Contributing
 
